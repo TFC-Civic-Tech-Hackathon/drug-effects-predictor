@@ -1,0 +1,2001 @@
+Patient Id,Name,Age,Gender,Height(cm),Weight(kg),Pregnancy,Past Medical Conditions
+0,Ashley Roberts,85,Male,174,66,No,Cancer
+1,Madeline James,46,Male,155,78,No,Stroke
+2,Caitlyn Hernandez,78,Female,200,105,Yes,Diabetes(type 2)
+3,Kevin Anderson,4,Male,145,44,No,Hayfever
+4,Mary Bright,17,Female,131,41,Yes,Hayfever
+5,Mia Sosa,54,Male,170,52,No,Allergies
+6,Cassidy Lewis,31,Female,167,92,No,Colds & Flu
+7,Gabriela Blair,44,Male,194,88,No,Diabetes(type 2)
+8,Erin Buck,26,Female,167,80,Yes,Depression
+9,Linda Guzman,28,Male,177,76,No,Diabetes(type 1)
+10,Misty Sanchez DDS,19,Female,157,114,Yes,Colds & Flu
+11,Ashlee Nguyen,49,Female,154,104,Yes,Diabetes(type 1)
+12,Lindsey Bryant,36,Male,174,63,No,Covid19
+13,David Obrien,43,Male,196,92,No,Covid19
+14,Jeremy Dyer,64,Female,179,83,Yes,Covid19
+15,Alexandra Miller,73,Male,194,59,No,Acne
+16,Kimberly Olson,82,Male,157,87,No,Cancer
+17,Tyler Rios,46,Female,165,86,Yes,Acne
+18,Daniel Lowery,68,Female,171,56,No,Hayfever
+19,Michael Price,17,Male,100,50,No,Diabetes(type 2)
+20,Hannah Hays,30,Female,164,76,No,Acne
+21,Nicholas Figueroa,68,Male,155,104,No,Depression
+22,Susan Brooks,31,Female,159,101,No,Allergies
+23,John Williams,13,Female,125,32,Yes,Depression
+24,Angelica Mcintosh,47,Female,161,120,No,Colds & Flu
+25,Beverly Bean,4,Female,150,45,Yes,Asthama
+26,Brenda Mills,82,Female,184,64,No,Colds & Flu
+27,James Franklin,17,Female,113,35,No,Stroke
+28,Michelle Aguilar MD,75,Male,163,45,No,Allergies
+29,Clayton Lewis,50,Female,159,72,Yes,Asthama
+30,Lauren Jones,88,Female,173,89,No,Hypertension
+31,Heather Ward,77,Female,188,45,Yes,Depression
+32,Kelsey Bright,46,Female,176,85,No,Covid19
+33,Gary Newton,13,Female,134,34,Yes,Allergies
+34,Tina Conrad,52,Male,174,85,No,Depression
+35,Miguel Evans,78,Female,200,48,Yes,Asthama
+36,James Hunt,70,Male,189,68,No,Covid19
+37,Matthew Owens,43,Male,194,119,No,Acne
+38,Laurie Howe,48,Male,189,42,No,Hayfever
+39,Larry Simpson,19,Male,164,65,No,Depression
+40,Andrea Newman,15,Female,124,48,Yes,Depression
+41,Clinton Nguyen,21,Female,198,59,Yes,Asthama
+42,Rodney Wang,58,Male,191,70,No,Stroke
+43,Tiffany Herrera,61,Female,162,47,No,Depression
+44,Colleen Shields,89,Female,162,53,No,Hypertension
+45,Anna Roy,69,Female,169,107,No,Cancer
+46,Anna Houston,71,Female,174,91,Yes,Allergies
+47,Jennifer Lewis,65,Female,197,91,Yes,Stroke
+48,Michael Price,59,Male,177,41,No,Diabetes(type 2)
+49,Danny Carr,60,Male,200,44,No,Hypertension
+50,Jack Mclaughlin,13,Male,130,38,No,Acne
+51,Jacob James,22,Female,188,109,No,Diabetes(type 1)
+52,Mrs. Julia Hudson,24,Female,175,56,No,Diabetes(type 2)
+53,Jordan Thomas MD,9,Female,132,39,No,Stroke
+54,Stephen Murphy,32,Male,180,108,No,Depression
+55,Julie Davidson,62,Female,194,94,Yes,Covid19
+56,Gregory Mcintyre,48,Male,157,98,No,Allergies
+57,Christopher Scott,52,Female,195,92,No,Diabetes(type 2)
+58,Wesley Briggs,31,Female,157,94,No,Allergies
+59,Joshua Park,10,Female,113,39,Yes,Diabetes(type 2)
+60,Christopher Edwards,37,Female,192,88,No,Allergies
+61,Scott Gordon,31,Female,173,119,Yes,Allergies
+62,Kelsey Lopez,58,Female,185,98,Yes,Stroke
+63,Keith Jones,27,Female,172,80,No,Diabetes(type 2)
+64,Michael Rogers,19,Female,161,67,No,Colds & Flu
+65,Donna Parsons,18,Female,184,68,Yes,Allergies
+66,Cindy Gilbert,4,Female,123,37,No,Allergies
+67,Caroline Olsen,22,Male,190,72,No,Hypertension
+68,Autumn Smith,21,Male,180,73,No,Colds & Flu
+69,Amber Smith,71,Female,155,57,Yes,Covid19
+70,Daniel Reeves,73,Male,178,80,No,Hayfever
+71,Sheryl Moreno,64,Male,176,43,No,Asthama
+72,Jonathan Curry,49,Male,155,82,No,Colds & Flu
+73,David Suarez,53,Female,188,103,No,Hayfever
+74,Sarah Warren,38,Male,191,89,No,Diabetes(type 1)
+75,Melissa Simon,43,Female,180,114,Yes,Hayfever
+76,Andrew Little,5,Female,121,47,Yes,Colds & Flu
+77,Patrick Smith,32,Male,185,94,No,Allergies
+78,Paul Diaz,79,Male,199,100,No,Acne
+79,Jonathan Oconnor,6,Female,113,46,Yes,Diabetes(type 1)
+80,Rebecca Lucas,67,Male,162,98,No,Hayfever
+81,Kimberly Brown,25,Male,168,66,No,Acne
+82,John Wright,25,Male,159,120,No,Depression
+83,Christopher Thomas DVM,52,Female,166,69,No,Stroke
+84,Curtis Charles,80,Male,190,48,No,Covid19
+85,Sierra Johnson,86,Male,170,94,No,Asthama
+86,Robert Thompson,89,Female,173,46,No,Asthama
+87,William Morgan,88,Male,200,42,No,Hayfever
+88,Chase Johnson,23,Male,185,70,No,Depression
+89,Matthew Cooper,66,Female,171,88,No,Covid19
+90,Hannah Sanchez,31,Male,172,85,No,Hypertension
+91,Jonathan Jones,12,Male,117,34,No,Diabetes(type 1)
+92,Victor Santos,71,Male,158,67,No,Asthama
+93,Renee Martinez DDS,22,Male,157,119,No,Cancer
+94,Brian Paul,52,Male,190,78,No,Diabetes(type 1)
+95,Brian Hamilton,16,Male,144,44,No,Diabetes(type 1)
+96,Zachary Hayes,69,Female,167,65,No,Asthama
+97,Tami Beasley,33,Female,179,95,No,Covid19
+98,Holly Valdez,68,Male,167,75,No,Stroke
+99,Joanna Weiss,87,Female,153,56,Yes,Diabetes(type 2)
+100,Randy Soto,90,Male,176,83,No,Asthama
+101,Maria Hall,71,Female,197,110,Yes,Cancer
+102,Emily Young,84,Female,191,45,Yes,Asthama
+103,Robert Garrett,79,Female,200,46,Yes,Stroke
+104,Greg Jones,75,Male,184,99,No,Depression
+105,Jesse Decker,51,Female,172,88,Yes,Diabetes(type 2)
+106,Amanda Rice,85,Female,154,114,No,Asthama
+107,Eric Flores,48,Male,194,98,No,Stroke
+108,Jessica Wright,7,Female,113,45,Yes,Cancer
+109,Kimberly Burns MD,16,Female,135,33,Yes,Allergies
+110,Zachary Gonzalez,39,Female,158,82,Yes,Hypertension
+111,Bradley Roberts,36,Male,158,84,No,Diabetes(type 2)
+112,Crystal Anderson,23,Female,178,82,No,Diabetes(type 1)
+113,Kyle Evans,63,Female,190,106,Yes,Diabetes(type 1)
+114,Ashley Jimenez,48,Male,177,87,No,Stroke
+115,Jay Gomez,83,Female,159,97,Yes,Colds & Flu
+116,Michelle Stephens,85,Male,198,62,No,Stroke
+117,Alison Carroll,29,Male,178,47,No,Colds & Flu
+118,Carl Campbell MD,79,Female,168,67,No,Asthama
+119,Frederick Bradley,64,Female,181,96,Yes,Cancer
+120,Mark Williams,90,Male,193,84,No,Stroke
+121,Kristin Wells,48,Male,196,82,No,Allergies
+122,Virginia Rice,44,Male,180,88,No,Diabetes(type 2)
+123,Mark Arias,66,Female,164,95,Yes,Allergies
+124,Russell Chang,13,Male,113,47,No,Cancer
+125,Peggy Higgins,18,Male,155,77,No,Asthama
+126,Geoffrey Carroll,73,Female,200,102,Yes,Stroke
+127,Jonathan Harmon,88,Male,188,102,No,Cancer
+128,David Peterson,51,Female,156,60,Yes,Colds & Flu
+129,Luis Jackson,77,Female,159,101,Yes,Asthama
+130,Hannah Cohen,26,Male,156,60,No,Hypertension
+131,Jennifer Smith,72,Female,196,51,Yes,Diabetes(type 2)
+132,Alexandra Hamilton,44,Male,150,63,No,Diabetes(type 2)
+133,Mary Boyd,59,Female,177,113,Yes,Diabetes(type 1)
+134,Tonya Diaz,53,Female,186,103,No,Covid19
+135,Charles Dominguez,81,Female,164,106,No,Colds & Flu
+136,Michael Diaz,22,Female,159,78,Yes,Acne
+137,Victor Green,24,Male,191,87,No,Allergies
+138,Charles Taylor,50,Female,200,57,Yes,Acne
+139,Melissa Moss,41,Male,152,65,No,Acne
+140,Daniel Cross,20,Male,161,81,No,Acne
+141,Susan Holmes,57,Male,167,60,No,Depression
+142,James Little PhD,69,Male,189,65,No,Diabetes(type 2)
+143,Elizabeth Morris,67,Female,193,54,Yes,Hayfever
+144,Joshua Young,22,Female,178,108,Yes,Hayfever
+145,Phillip Jackson,36,Male,157,50,No,Acne
+146,Robert Smith,5,Male,149,30,No,Acne
+147,Melissa Hopkins,79,Male,153,96,No,Covid19
+148,Michael Taylor,44,Male,184,40,No,Acne
+149,Shawn Larson,87,Female,189,81,No,Covid19
+150,Jane Duncan,20,Female,188,57,No,Hypertension
+151,Madison Morrison,81,Female,192,41,No,Diabetes(type 1)
+152,Kyle Hill,29,Female,171,110,Yes,Depression
+153,Kerry Williams,15,Female,118,48,Yes,Stroke
+154,Stacy Shannon,7,Female,117,45,Yes,Acne
+155,Nathaniel Brown,41,Male,198,116,No,Cancer
+156,Amy Bailey,34,Male,171,113,No,Depression
+157,Destiny Wagner,21,Female,179,97,Yes,Allergies
+158,Linda Jones,80,Female,178,52,Yes,Hypertension
+159,Janice Thompson,75,Female,198,111,No,Allergies
+160,Todd Mendez,65,Male,170,65,No,Diabetes(type 2)
+161,Mary Perkins,44,Female,181,50,Yes,Depression
+162,Joshua Garcia,25,Male,196,103,No,Diabetes(type 2)
+163,Steven Pittman,63,Female,175,62,No,Cancer
+164,Jenna Turner,64,Female,165,67,Yes,Diabetes(type 2)
+165,Melissa Myers,74,Female,170,43,No,Diabetes(type 1)
+166,Patricia Avery,17,Male,106,31,No,Colds & Flu
+167,Amanda Bolton,59,Female,175,41,Yes,Allergies
+168,Stephanie Mays,29,Female,161,64,Yes,Hayfever
+169,Kelli Rosales,88,Male,199,44,No,Asthama
+170,Nicole Schneider,26,Female,160,80,No,Cancer
+171,Lisa Torres,61,Male,158,82,No,Diabetes(type 1)
+172,Matthew Anderson,36,Female,186,118,Yes,Allergies
+173,Trevor Nicholson,83,Male,177,120,No,Diabetes(type 1)
+174,Peter Roberts,25,Male,175,94,No,Diabetes(type 2)
+175,Sergio Clark,8,Female,114,48,Yes,Colds & Flu
+176,David Lawrence,80,Male,179,97,No,Diabetes(type 2)
+177,Kimberly Cook,5,Female,111,35,Yes,Cancer
+178,Susan Avila,20,Female,196,61,No,Depression
+179,Eric Molina,33,Male,176,75,No,Colds & Flu
+180,Erin Avery,23,Female,182,93,No,Colds & Flu
+181,Erin Brown,89,Male,158,92,No,Asthama
+182,Jennifer Elliott,9,Male,108,42,No,Diabetes(type 2)
+183,Jonathan Sharp,61,Female,171,56,No,Stroke
+184,Misty Ramirez,86,Male,163,106,No,Acne
+185,Kari Ortega,22,Female,159,90,No,Depression
+186,Mason Steele,45,Female,192,96,No,Stroke
+187,Brandon Hall,72,Male,186,47,No,Hayfever
+188,Alfred Smith,78,Female,198,81,Yes,Stroke
+189,Marissa Rojas,63,Female,169,49,No,Asthama
+190,Kristine Carroll,59,Male,178,76,No,Hypertension
+191,Eric Duke,75,Female,196,111,Yes,Colds & Flu
+192,Kimberly Beasley,35,Male,197,46,No,Allergies
+193,Kevin Smith,18,Female,157,118,Yes,Diabetes(type 2)
+194,Stephen Ford,15,Male,108,32,No,Allergies
+195,Carla Case,52,Female,193,42,No,Asthama
+196,John Bishop,71,Male,167,67,No,Cancer
+197,Ryan Taylor,22,Female,190,44,No,Stroke
+198,Emily Smith,35,Male,173,49,No,Depression
+199,Benjamin Aguilar,88,Female,160,115,No,Acne
+200,Kristina Matthews,16,Female,136,35,No,Colds & Flu
+201,Susan Francis,62,Male,180,58,No,Hayfever
+202,Amanda Perez,21,Male,163,59,No,Diabetes(type 1)
+203,Sharon Park,25,Male,185,113,No,Diabetes(type 1)
+204,Jennifer Taylor,73,Female,169,54,Yes,Depression
+205,Beth Jordan,76,Male,189,59,No,Covid19
+206,Christopher Hubbard,86,Female,177,68,Yes,Depression
+207,Kimberly Sanchez,26,Female,183,85,No,Allergies
+208,Vanessa Greer,39,Male,153,106,No,Colds & Flu
+209,Terri Reilly,75,Male,198,40,No,Colds & Flu
+210,Cheryl Wilson,24,Female,150,46,Yes,Stroke
+211,Ronald Webb,51,Female,188,83,No,Colds & Flu
+212,Dakota Diaz,32,Male,183,57,No,Stroke
+213,Christine Gordon,23,Female,157,44,Yes,Hypertension
+214,Raymond Lloyd,68,Female,181,115,No,Hayfever
+215,Monica Walker,18,Female,170,102,No,Diabetes(type 1)
+216,Terry Simon,57,Male,193,81,No,Hypertension
+217,Alicia Smith,59,Female,200,111,No,Depression
+218,Mrs. Brenda Smith,50,Male,183,86,No,Allergies
+219,David Trujillo,55,Male,180,89,No,Hypertension
+220,Bobby Thomas,18,Male,160,113,No,Diabetes(type 1)
+221,Paul Middleton,11,Male,110,36,No,Covid19
+222,Shirley Rogers,22,Female,188,110,No,Cancer
+223,Diana Pruitt,39,Female,188,44,Yes,Hypertension
+224,Oscar Hansen,59,Male,180,57,No,Asthama
+225,Michael Smith,80,Female,153,42,Yes,Covid19
+226,Ryan Woodward,31,Female,183,57,Yes,Stroke
+227,Nancy Stone,37,Male,196,100,No,Stroke
+228,Shawn Williams,62,Female,175,116,Yes,Hayfever
+229,Gregory Thomas,11,Male,115,43,No,Cancer
+230,Brandon Wade,30,Male,181,90,No,Asthama
+231,Kyle Blanchard,41,Male,188,49,No,Diabetes(type 2)
+232,Austin Lin,57,Male,167,46,No,Asthama
+233,Gloria Brown,60,Female,186,55,Yes,Stroke
+234,Laurie Collins,29,Male,188,81,No,Diabetes(type 2)
+235,Debra Rodriguez,88,Male,160,60,No,Diabetes(type 1)
+236,Nichole Hubbard,14,Female,147,33,Yes,Stroke
+237,Joshua Day,25,Female,167,55,No,Covid19
+238,Lisa Nelson,28,Male,200,67,No,Covid19
+239,Jessica Miller,59,Female,199,98,Yes,Cancer
+240,Timothy Dean,69,Male,153,100,No,Hypertension
+241,Stephen Carter,74,Male,178,56,No,Depression
+242,Ashley Simon,10,Male,109,38,No,Acne
+243,Angela Ball,80,Male,194,119,No,Diabetes(type 2)
+244,Alexis Alexander,68,Female,196,69,Yes,Acne
+245,Ashley Hernandez,28,Female,191,48,Yes,Diabetes(type 1)
+246,Jonathan Hancock,11,Female,103,40,Yes,Colds & Flu
+247,James Lee,23,Male,170,92,No,Depression
+248,William Parker,45,Female,156,60,No,Hypertension
+249,Sean Mitchell,86,Female,188,70,No,Covid19
+250,Kristen Brewer,26,Male,166,63,No,Diabetes(type 2)
+251,Patricia Mcclain,65,Male,151,107,No,Hypertension
+252,Sarah Graham,14,Male,136,46,No,Allergies
+253,Frank Baxter,42,Female,153,95,No,Allergies
+254,Christopher Thompson,61,Female,191,74,No,Acne
+255,Matthew Kirby,52,Female,172,66,No,Hayfever
+256,Robert Rodriguez,28,Male,170,86,No,Hayfever
+257,Jacob Fletcher,22,Male,185,40,No,Cancer
+258,Yvonne Beltran,71,Female,168,57,No,Colds & Flu
+259,Jesse Stewart,42,Female,191,110,Yes,Diabetes(type 2)
+260,Caitlin Kelly,10,Male,137,33,No,Diabetes(type 2)
+261,Isaac Herrera,49,Female,152,60,Yes,Hypertension
+262,Scott Lopez,35,Male,166,111,No,Diabetes(type 2)
+263,Steven Meyer,60,Male,199,43,No,Stroke
+264,Mary Williams,81,Male,182,88,No,Diabetes(type 2)
+265,Mr. Michael Hudson,65,Male,157,43,No,Covid19
+266,Rachel Hamilton,32,Female,185,98,Yes,Hypertension
+267,Charles Butler,78,Female,182,115,Yes,Depression
+268,Paul Moreno,68,Female,199,84,No,Asthama
+269,Dorothy Campbell,66,Male,199,62,No,Stroke
+270,John Hahn,24,Male,186,47,No,Covid19
+271,Luke Hunt,24,Male,156,59,No,Diabetes(type 1)
+272,Laura Walsh,5,Male,147,34,No,Depression
+273,Maurice Mitchell,51,Male,199,118,No,Hayfever
+274,Mr. James Castillo DDS,73,Male,175,45,No,Asthama
+275,Thomas Curry,65,Male,177,63,No,Depression
+276,Michael Smith,60,Female,188,79,No,Covid19
+277,William Duran,60,Male,151,46,No,Stroke
+278,Cody Cruz,9,Male,149,36,No,Covid19
+279,Lisa Smith,47,Male,190,64,No,Allergies
+280,Scott Martinez,7,Male,148,44,No,Depression
+281,Kimberly Gibson,13,Female,115,48,No,Colds & Flu
+282,Cindy Thompson,72,Female,192,106,Yes,Cancer
+283,James Wise,31,Male,174,48,No,Stroke
+284,Richard Smith,35,Female,178,108,Yes,Cancer
+285,Brian Wang,17,Male,127,47,No,Hypertension
+286,Christine Jones,62,Male,153,105,No,Diabetes(type 1)
+287,Tracy Curtis,42,Female,152,101,Yes,Depression
+288,Dominique Mitchell,73,Male,178,41,No,Cancer
+289,Raymond Rose,87,Male,195,69,No,Allergies
+290,Laura Gilbert,15,Female,110,38,Yes,Stroke
+291,Jacob Turner,29,Female,185,79,Yes,Covid19
+292,Jeffrey Rodgers,39,Female,186,63,No,Asthama
+293,Douglas Peterson,57,Female,183,90,No,Allergies
+294,Joanne Clark,34,Female,190,94,Yes,Covid19
+295,Catherine Murillo,57,Male,157,112,No,Asthama
+296,Suzanne Kennedy,74,Male,188,110,No,Stroke
+297,Karen Houston,5,Female,135,41,No,Colds & Flu
+298,Karen Sanchez DVM,89,Male,169,61,No,Depression
+299,Anthony Velazquez,45,Male,154,101,No,Colds & Flu
+300,Timothy Day,62,Male,153,54,No,Diabetes(type 2)
+301,Jacob Mendoza,82,Male,186,46,No,Covid19
+302,Audrey Lutz,76,Female,195,60,Yes,Hypertension
+303,Michael Ramos MD,47,Female,165,64,Yes,Asthama
+304,Matthew Ochoa,49,Female,180,53,Yes,Depression
+305,Bradley Jones,38,Male,190,58,No,Covid19
+306,Mr. Christopher Cantrell,90,Female,190,45,Yes,Cancer
+307,Sherri Bryan,43,Female,189,42,No,Depression
+308,Jill Thompson,66,Female,194,62,No,Cancer
+309,Brian Scott,81,Female,151,67,No,Diabetes(type 2)
+310,Nancy Carter,89,Female,171,73,Yes,Stroke
+311,Hannah Werner,49,Female,190,110,No,Stroke
+312,Benjamin Butler MD,54,Male,159,99,No,Hayfever
+313,Jason Espinoza,79,Female,160,61,No,Cancer
+314,Cindy Walker,35,Male,190,75,No,Hayfever
+315,Cynthia Mack,66,Male,150,84,No,Diabetes(type 1)
+316,Rachel Hayes,13,Female,124,45,No,Depression
+317,Donna Pace,8,Female,145,33,No,Asthama
+318,Cody Williams,86,Male,167,64,No,Allergies
+319,Heather Gilmore,29,Male,163,104,No,Diabetes(type 2)
+320,Rachel Glass,35,Male,194,108,No,Stroke
+321,Preston Lopez,69,Male,164,93,No,Diabetes(type 2)
+322,Joshua Martinez,16,Male,108,43,No,Colds & Flu
+323,Kimberly Williams,61,Female,177,119,No,Diabetes(type 2)
+324,Thomas Cox,10,Male,108,43,No,Colds & Flu
+325,Kelsey Miller,55,Female,152,44,Yes,Diabetes(type 1)
+326,Xavier Lopez,9,Male,121,30,No,Stroke
+327,Brittany Oconnell,29,Male,191,97,No,Colds & Flu
+328,Brian Flores,53,Male,170,101,No,Acne
+329,Amy Hickman,85,Female,174,53,Yes,Hayfever
+330,Sabrina Roberts,63,Male,173,75,No,Colds & Flu
+331,Michaela Evans,27,Female,190,50,No,Asthama
+332,Kimberly Gregory,72,Male,177,98,No,Hypertension
+333,Heather Freeman,67,Male,168,117,No,Allergies
+334,Laura Miller,83,Male,161,120,No,Stroke
+335,Matthew Woods,88,Female,172,104,No,Stroke
+336,Marie Kane,54,Female,169,42,Yes,Covid19
+337,Wayne Wood,51,Male,170,101,No,Hayfever
+338,Brett Welch,59,Female,154,117,Yes,Colds & Flu
+339,Karen Wheeler,56,Female,170,54,Yes,Allergies
+340,Kathy Garcia,69,Male,168,83,No,Diabetes(type 2)
+341,John Williamson,75,Male,172,97,No,Diabetes(type 2)
+342,Benjamin Warren,48,Female,170,110,No,Acne
+343,Jeremy Cox,13,Female,122,32,Yes,Colds & Flu
+344,Antonio Miller,86,Female,151,115,No,Colds & Flu
+345,Eric Schroeder,24,Female,150,97,No,Asthama
+346,Sarah Morrison,26,Female,155,51,Yes,Acne
+347,Lori Bradley,24,Female,195,66,No,Depression
+348,George Shields,42,Male,181,61,No,Acne
+349,Gabriel Woods,73,Female,159,64,No,Diabetes(type 2)
+350,Jerome Taylor,27,Female,191,74,No,Covid19
+351,Stephanie Parker,50,Female,182,99,No,Acne
+352,Michael Garcia,38,Male,193,90,No,Covid19
+353,Shari Thomas,27,Female,186,52,Yes,Allergies
+354,Michael Herrera,4,Female,150,44,No,Stroke
+355,James Perez,71,Male,194,69,No,Hayfever
+356,Raven Brooks,30,Male,198,44,No,Diabetes(type 2)
+357,Megan Carter,40,Female,193,98,Yes,Colds & Flu
+358,Michael Lee,33,Female,154,109,No,Hayfever
+359,Alexandra James,75,Male,182,104,No,Hypertension
+360,Paul Faulkner,7,Female,109,43,Yes,Covid19
+361,Mary Hampton,73,Female,158,44,Yes,Depression
+362,Frances Carlson,49,Male,198,112,No,Hayfever
+363,Christian Pierce,31,Female,150,41,No,Diabetes(type 2)
+364,Sharon Benson,30,Female,196,98,Yes,Allergies
+365,Rebecca Williams,47,Female,194,105,Yes,Covid19
+366,Shelly Hughes,67,Female,163,115,No,Diabetes(type 1)
+367,Jenny Thomas,71,Female,190,40,No,Diabetes(type 1)
+368,James Reid,6,Male,119,44,No,Diabetes(type 2)
+369,Matthew Johnson,71,Female,175,96,Yes,Depression
+370,Elizabeth Kelley,43,Male,156,102,No,Acne
+371,Priscilla White,25,Male,181,98,No,Hypertension
+372,Jean Miller,83,Male,192,84,No,Hayfever
+373,Brian Thomas,64,Female,150,117,No,Allergies
+374,Karen Schroeder,61,Female,166,82,Yes,Cancer
+375,Bob Dodson,79,Male,155,67,No,Stroke
+376,Holly Curtis,74,Female,161,112,Yes,Acne
+377,John Gregory,87,Male,177,63,No,Acne
+378,Joseph Williams,78,Male,200,93,No,Hayfever
+379,Franklin Henson,78,Female,152,91,Yes,Hayfever
+380,Scott Weber,87,Female,176,99,Yes,Diabetes(type 2)
+381,Kimberly Walker,27,Female,157,66,No,Colds & Flu
+382,Morgan Lee,44,Female,200,58,Yes,Hayfever
+383,Rachel Morris,41,Female,155,99,Yes,Stroke
+384,Terry Beck,40,Female,185,100,Yes,Colds & Flu
+385,Amber Smith,7,Male,132,49,No,Diabetes(type 1)
+386,Lauren Coffey,46,Male,196,98,No,Diabetes(type 2)
+387,Kimberly Gonzalez,90,Male,191,47,No,Diabetes(type 2)
+388,Katrina Maxwell,33,Male,153,87,No,Diabetes(type 1)
+389,Justin Montoya,16,Female,112,46,Yes,Colds & Flu
+390,Ronald Chase,56,Male,172,111,No,Diabetes(type 2)
+391,Jesus Mercado,73,Female,167,86,Yes,Asthama
+392,Ashley Martinez,86,Male,174,101,No,Covid19
+393,Jacob Morgan DDS,84,Female,193,78,Yes,Hayfever
+394,Christopher Fields,26,Female,189,48,Yes,Colds & Flu
+395,Cristina Merritt,44,Male,154,45,No,Hayfever
+396,Mrs. Heather Torres,87,Female,179,62,Yes,Asthama
+397,Kelli Collins,82,Female,176,51,No,Allergies
+398,Meghan Lee,43,Male,193,113,No,Hypertension
+399,Jonathan Riley,86,Female,185,44,No,Colds & Flu
+400,Steven Hartman,32,Male,153,87,No,Cancer
+401,Alex Valenzuela,44,Female,161,67,No,Stroke
+402,Hector Turner,8,Male,136,45,No,Cancer
+403,Adam Leon,16,Male,131,45,No,Asthama
+404,Julie Farmer,59,Male,162,41,No,Stroke
+405,Timothy Smith,37,Male,155,87,No,Asthama
+406,Ryan Meza,62,Female,172,118,Yes,Hayfever
+407,Cynthia Rodriguez,26,Male,167,45,No,Hypertension
+408,Devon Moore,70,Female,194,49,No,Depression
+409,Samuel James,87,Female,153,111,Yes,Acne
+410,Michael Wallace,76,Female,158,70,Yes,Depression
+411,Michelle Lawson,86,Male,195,65,No,Stroke
+412,Michelle Dickson,67,Female,184,98,No,Diabetes(type 1)
+413,Timothy Baldwin,38,Female,182,77,No,Stroke
+414,Ray Duran,12,Female,129,41,Yes,Stroke
+415,Lisa Shaw,22,Female,188,89,Yes,Diabetes(type 1)
+416,Kaitlin Jones,71,Female,167,43,Yes,Diabetes(type 2)
+417,Peter Jones,64,Male,170,97,No,Cancer
+418,Taylor Adams,69,Male,173,87,No,Stroke
+419,Karen Russell,90,Male,195,62,No,Colds & Flu
+420,Jessica Owens,32,Female,186,90,No,Allergies
+421,Erik Cooley,81,Male,173,90,No,Asthama
+422,Courtney Williams,12,Male,147,48,No,Colds & Flu
+423,William Williams,74,Male,154,78,No,Acne
+424,Dana Rogers,69,Male,185,99,No,Cancer
+425,Jermaine Hampton,67,Male,199,92,No,Allergies
+426,Taylor Harris,77,Female,182,60,Yes,Covid19
+427,Zachary Miller,9,Female,137,34,No,Allergies
+428,Jonathan Jacobs,84,Female,188,97,Yes,Diabetes(type 2)
+429,Mrs. Deborah Huerta MD,5,Male,140,41,No,Colds & Flu
+430,Melissa Moreno,63,Male,186,57,No,Acne
+431,Deborah Clarke,39,Male,168,58,No,Acne
+432,Ronald Wells,63,Female,176,59,No,Stroke
+433,Christopher Thompson,6,Female,100,49,Yes,Depression
+434,Joseph Gilmore,20,Female,191,105,Yes,Diabetes(type 1)
+435,Gerald Gibbs,8,Female,145,31,No,Diabetes(type 1)
+436,Diana Fisher,68,Male,174,69,No,Stroke
+437,William Brown,73,Female,171,78,No,Colds & Flu
+438,Christine Bennett,20,Male,152,41,No,Acne
+439,Jennifer Hess,62,Female,161,65,Yes,Cancer
+440,Tyler Smith,11,Female,125,43,Yes,Stroke
+441,Karen Davis,82,Male,181,44,No,Asthama
+442,Jenna Lane,28,Female,150,113,No,Colds & Flu
+443,Peter Donovan,6,Female,104,33,No,Colds & Flu
+444,Tina Smith,66,Female,186,97,No,Diabetes(type 1)
+445,Whitney West,55,Female,157,97,No,Allergies
+446,Edward Johnson,89,Female,169,100,Yes,Depression
+447,Rebecca Massey,35,Male,200,104,No,Asthama
+448,Dr. Jeffrey Smith DDS,43,Male,173,118,No,Cancer
+449,Charles Jones,59,Male,160,114,No,Cancer
+450,Susan Miller,74,Male,167,112,No,Allergies
+451,Tommy Walker,52,Male,186,81,No,Acne
+452,Andrew Ford,35,Male,192,60,No,Diabetes(type 2)
+453,Ann Sutton,21,Female,160,70,Yes,Diabetes(type 2)
+454,Kristen Shaffer,35,Male,194,71,No,Cancer
+455,Cynthia Johnson,90,Female,176,119,No,Hypertension
+456,Jennifer Frederick,87,Female,189,99,Yes,Diabetes(type 2)
+457,Xavier Hines,33,Female,167,76,Yes,Asthama
+458,Tanner Cunningham,12,Female,139,45,Yes,Hypertension
+459,Anna Mullins,66,Female,192,106,No,Covid19
+460,Jessica Hicks,15,Male,101,30,No,Asthama
+461,Cory Munoz,88,Male,172,76,No,Hypertension
+462,Marc Wyatt,74,Female,183,64,Yes,Hayfever
+463,Matthew Conley,87,Female,153,86,No,Colds & Flu
+464,Jason Murray,41,Female,178,59,Yes,Colds & Flu
+465,Ralph Valenzuela,35,Male,173,109,No,Covid19
+466,Maria Williams,61,Male,188,79,No,Hypertension
+467,Jamie Bautista,80,Male,160,66,No,Covid19
+468,Corey Peterson,22,Male,180,115,No,Hayfever
+469,Jennifer Cortez,32,Female,158,60,No,Acne
+470,Jamie Conner,12,Male,140,50,No,Diabetes(type 2)
+471,Tamara Simpson,28,Female,160,85,No,Colds & Flu
+472,Michael Rogers,12,Male,141,47,No,Asthama
+473,Carrie Mann,65,Female,193,79,No,Allergies
+474,Jennifer Henry,23,Female,194,73,No,Hayfever
+475,Louis Collier,61,Female,191,113,Yes,Hayfever
+476,Audrey Fisher,13,Female,124,30,Yes,Asthama
+477,Christopher Pena,4,Male,133,37,No,Covid19
+478,Tonya Perry,86,Male,172,99,No,Asthama
+479,Christopher Castillo,27,Male,154,61,No,Diabetes(type 1)
+480,John Willis,30,Female,166,106,No,Cancer
+481,David Clark,37,Female,190,112,No,Hypertension
+482,Joseph Lopez,30,Female,189,95,Yes,Allergies
+483,Thomas Smith,19,Male,151,67,No,Depression
+484,Laura Collins,42,Female,160,55,Yes,Diabetes(type 2)
+485,Barbara Murray,24,Female,192,42,No,Depression
+486,Rodney Santiago MD,29,Female,176,98,No,Diabetes(type 1)
+487,Danielle Davis,52,Male,182,93,No,Hayfever
+488,Amanda Rivas,9,Male,109,42,No,Hayfever
+489,Brian Roberts,79,Female,197,48,No,Diabetes(type 1)
+490,Veronica Garrett,20,Female,186,118,No,Stroke
+491,Clayton Martin Jr.,90,Female,154,88,Yes,Acne
+492,Diana Baxter,42,Female,158,87,Yes,Hayfever
+493,Elizabeth Green,69,Male,160,100,No,Acne
+494,Deborah Nelson,36,Male,176,119,No,Colds & Flu
+495,Steven Smith,12,Female,119,37,Yes,Depression
+496,Jonathan Graham,82,Male,154,93,No,Diabetes(type 2)
+497,Anne Price,59,Male,189,106,No,Acne
+498,David Stevens,33,Female,157,117,Yes,Asthama
+499,Destiny Potts,22,Female,160,71,Yes,Cancer
+500,Debbie Miller,72,Male,194,54,No,Colds & Flu
+501,Hayley Rivera,14,Male,120,39,No,Acne
+502,Matthew Clements,82,Female,167,43,Yes,Colds & Flu
+503,Michael Reyes,62,Male,180,55,No,Stroke
+504,Jeffrey Turner,39,Male,182,49,No,Diabetes(type 2)
+505,Brendan Williamson,61,Male,157,55,No,Stroke
+506,Christopher Owens,48,Female,175,43,No,Stroke
+507,Michelle Wright,72,Male,191,91,No,Hypertension
+508,Louis Alvarez,10,Male,107,34,No,Colds & Flu
+509,Scott Smith,56,Female,187,102,Yes,Cancer
+510,Bethany Hart,6,Male,132,42,No,Depression
+511,Dr. Johnny Gray DVM,32,Female,176,70,No,Covid19
+512,Matthew Rivera,59,Male,195,41,No,Diabetes(type 1)
+513,Ms. Cynthia Hall,7,Female,116,39,No,Hayfever
+514,Kevin Stewart,38,Male,175,94,No,Covid19
+515,Joseph Contreras,43,Female,169,102,No,Colds & Flu
+516,Bryan Porter,16,Male,129,44,No,Acne
+517,Harold Blackwell,9,Female,134,37,No,Hypertension
+518,Alison Cannon,27,Male,188,104,No,Colds & Flu
+519,Jose Frazier,30,Female,151,80,No,Acne
+520,Joshua Mendoza,42,Male,164,43,No,Diabetes(type 2)
+521,Dwayne Spence,10,Male,133,38,No,Acne
+522,Katherine Cuevas,69,Male,161,72,No,Cancer
+523,Thomas Horton,32,Female,184,104,No,Stroke
+524,Jonathan Wilson,13,Female,108,50,No,Hypertension
+525,Becky Dunlap,60,Male,198,81,No,Acne
+526,Juan Martinez,83,Male,151,71,No,Asthama
+527,Rachel Johnson,25,Female,153,103,No,Stroke
+528,Rita Carter,87,Female,170,70,No,Colds & Flu
+529,Edward Wade,87,Male,192,83,No,Asthama
+530,Charles Chapman,69,Female,200,57,No,Cancer
+531,Ashley Brown,65,Male,155,58,No,Cancer
+532,Rebecca Mclean,69,Female,199,47,No,Diabetes(type 2)
+533,Anne Anthony,68,Female,191,90,Yes,Stroke
+534,Daniel Dominguez PhD,67,Female,163,98,No,Stroke
+535,Joshua Wright,73,Female,155,90,No,Covid19
+536,Taylor Martinez,29,Female,180,75,Yes,Depression
+537,Joseph Duke,9,Male,130,37,No,Diabetes(type 2)
+538,David Hancock,75,Male,173,84,No,Depression
+539,Tara Schroeder,78,Male,154,117,No,Hayfever
+540,Christopher White,23,Female,181,103,No,Stroke
+541,Lori Williams,26,Male,168,48,No,Depression
+542,Amanda Gardner,21,Female,198,40,No,Acne
+543,Elizabeth Romero,6,Female,114,43,Yes,Stroke
+544,Connor Valdez,69,Female,184,61,Yes,Hayfever
+545,Jeffrey Harding,83,Female,155,71,No,Diabetes(type 1)
+546,Mary Campbell,89,Female,185,111,Yes,Hayfever
+547,John Rios,78,Male,152,118,No,Allergies
+548,Sarah Jones,41,Female,180,99,Yes,Hayfever
+549,Mario Williams,70,Female,157,102,No,Hypertension
+550,Timothy Wallace,61,Male,194,79,No,Allergies
+551,Mark Williams,82,Female,180,53,Yes,Cancer
+552,Kimberly Richards,15,Female,130,38,Yes,Depression
+553,Monica Jones,23,Male,195,78,No,Covid19
+554,Darrell Phillips,83,Male,182,72,No,Hayfever
+555,John Patton,39,Female,193,84,Yes,Stroke
+556,James Pierce,31,Female,170,62,Yes,Acne
+557,Mr. Joel Brown,22,Female,177,67,No,Stroke
+558,Sean Mills,29,Male,167,98,No,Covid19
+559,Tony Oliver,75,Female,156,73,Yes,Diabetes(type 1)
+560,Walter Goodwin,52,Female,174,98,Yes,Diabetes(type 1)
+561,John Wilson,87,Female,157,70,Yes,Diabetes(type 2)
+562,Terry Gonzalez,88,Male,167,58,No,Hayfever
+563,Jeremy Johnson,9,Female,130,34,No,Diabetes(type 2)
+564,Calvin Oconnor,57,Male,150,93,No,Depression
+565,Megan Stevens,21,Female,173,113,Yes,Hayfever
+566,Peter Huber,32,Female,154,108,Yes,Acne
+567,Shawn Huffman,14,Male,110,33,No,Asthama
+568,Karen Smith,78,Male,154,47,No,Hayfever
+569,Matthew Lee,50,Male,194,94,No,Covid19
+570,Tiffany Wilson,48,Male,172,50,No,Depression
+571,Sheri Wyatt,52,Female,179,103,No,Covid19
+572,Hannah Harris,78,Male,193,64,No,Colds & Flu
+573,Eric Sanders,85,Male,180,58,No,Depression
+574,Shawn Martinez,89,Male,184,51,No,Hayfever
+575,Nicole Summers,16,Male,138,43,No,Asthama
+576,Johnny Garcia,79,Male,177,55,No,Hypertension
+577,William Miller,81,Female,175,99,No,Hypertension
+578,Stephen Maldonado,19,Female,153,80,Yes,Covid19
+579,Marcus James,81,Male,150,115,No,Covid19
+580,Thomas Owens,23,Female,185,119,Yes,Diabetes(type 2)
+581,Ms. Cassidy Gray PhD,76,Female,174,93,Yes,Covid19
+582,Craig Peterson,30,Female,200,92,No,Stroke
+583,Sonia Hawkins,86,Female,164,46,No,Depression
+584,Jordan Munoz,35,Female,163,50,Yes,Diabetes(type 2)
+585,John Montgomery,40,Male,153,66,No,Stroke
+586,Mark Evans,15,Female,112,50,No,Asthama
+587,Daniel May,90,Female,177,53,Yes,Hayfever
+588,Daniel Lambert,42,Male,163,102,No,Colds & Flu
+589,Dawn Olsen,63,Male,150,59,No,Colds & Flu
+590,Christine Wood,70,Male,196,77,No,Colds & Flu
+591,Robert Stevenson,11,Female,128,47,Yes,Cancer
+592,James Farley,83,Male,153,79,No,Diabetes(type 1)
+593,Mitchell Gilmore,18,Female,160,108,Yes,Diabetes(type 1)
+594,Antonio Wagner,18,Female,179,108,Yes,Covid19
+595,Allison Davis,4,Female,140,46,Yes,Depression
+596,Maria Morrison,16,Female,136,36,Yes,Acne
+597,Austin Brown,85,Female,152,43,No,Depression
+598,Michael Goodman,64,Male,176,101,No,Depression
+599,Chad Dixon,53,Female,190,112,Yes,Asthama
+600,Steven Robinson,81,Male,181,82,No,Depression
+601,Kathleen Sloan,42,Female,194,53,No,Stroke
+602,Michael Tyler,6,Male,144,44,No,Hypertension
+603,Ryan Welch,65,Female,180,117,No,Asthama
+604,Parker Leon,46,Female,192,56,Yes,Depression
+605,Eric Mclean,32,Male,167,108,No,Depression
+606,Stephanie Miller,88,Female,157,79,Yes,Colds & Flu
+607,Adam Sanders,54,Female,153,46,No,Cancer
+608,Michael Gray,56,Male,198,75,No,Colds & Flu
+609,Kenneth Carpenter,52,Female,168,117,No,Asthama
+610,Robert Carroll,56,Male,153,113,No,Cancer
+611,Lauren Francis,43,Female,164,118,Yes,Hypertension
+612,John Watkins,44,Male,158,112,No,Asthama
+613,Susan Lowe,4,Female,133,36,No,Hayfever
+614,Sarah Townsend,59,Male,175,81,No,Stroke
+615,Michael Guzman,25,Female,200,110,No,Hypertension
+616,Matthew Villegas DVM,4,Female,108,46,Yes,Stroke
+617,Ricky Blair,41,Female,168,100,Yes,Covid19
+618,Edward Walker,25,Female,172,53,Yes,Diabetes(type 2)
+619,Michele Kennedy,90,Male,152,106,No,Diabetes(type 1)
+620,Brian Carpenter,52,Female,184,110,No,Diabetes(type 1)
+621,Dana Blanchard,61,Male,165,67,No,Colds & Flu
+622,Shannon Moore,31,Male,164,41,No,Diabetes(type 2)
+623,Tara Green,68,Male,186,53,No,Hayfever
+624,Adam Simpson,69,Female,157,95,No,Cancer
+625,Martha Edwards,27,Male,175,108,No,Depression
+626,Jeremy Humphrey,74,Female,182,117,Yes,Covid19
+627,Brandon Stokes,80,Female,165,111,No,Colds & Flu
+628,Kathleen Carter,43,Male,173,61,No,Colds & Flu
+629,Valerie Harris,77,Female,150,68,No,Diabetes(type 2)
+630,Anthony Wright,35,Male,151,109,No,Cancer
+631,Willie Barron,76,Female,184,63,No,Covid19
+632,Carrie Myers,22,Male,170,83,No,Colds & Flu
+633,Tracy Ewing,63,Male,171,56,No,Stroke
+634,Amber Brown,38,Female,152,105,No,Colds & Flu
+635,Jacob Owens,27,Male,190,110,No,Diabetes(type 2)
+636,Doris Ortiz,38,Female,164,114,No,Diabetes(type 2)
+637,Phillip Reed,75,Male,179,52,No,Diabetes(type 2)
+638,Javier Mendoza,33,Female,188,71,Yes,Colds & Flu
+639,Kimberly Carlson,38,Male,158,95,No,Depression
+640,Karen Green,64,Female,156,59,Yes,Asthama
+641,Tonya Baker,71,Male,172,74,No,Allergies
+642,Jessica Hines,9,Male,134,46,No,Colds & Flu
+643,Jacob Smith,5,Female,127,45,No,Hayfever
+644,Christy Edwards,47,Female,157,108,No,Acne
+645,Kathleen Harris,20,Female,194,112,Yes,Acne
+646,Garrett Smith,88,Female,189,61,No,Colds & Flu
+647,Jennifer Jackson DDS,70,Female,153,68,Yes,Allergies
+648,Sharon Benton,20,Female,183,105,Yes,Depression
+649,Lisa Gardner,14,Female,114,35,Yes,Hayfever
+650,Allison Roman,55,Female,199,82,Yes,Diabetes(type 2)
+651,Thomas Jones,37,Male,155,83,No,Hayfever
+652,Jared Duncan,67,Female,163,61,No,Hypertension
+653,Betty Wells,4,Male,137,40,No,Hypertension
+654,David Short,47,Female,159,94,No,Asthama
+655,Shelby Walters,40,Male,182,101,No,Asthama
+656,Robert Higgins,36,Female,157,112,Yes,Cancer
+657,George Tucker,87,Female,156,81,No,Allergies
+658,Gerald Ware,42,Male,157,106,No,Allergies
+659,Kevin Miles,51,Female,156,100,Yes,Allergies
+660,Andrew Lane MD,68,Female,182,67,Yes,Hypertension
+661,Angela Harris,85,Female,171,90,No,Diabetes(type 2)
+662,Ryan Smith,35,Male,151,83,No,Stroke
+663,Adam Williams,62,Female,152,104,No,Hypertension
+664,Rhonda Odonnell,21,Female,151,50,No,Hypertension
+665,Michael Diaz,90,Male,199,75,No,Colds & Flu
+666,David Knight,14,Male,114,33,No,Diabetes(type 2)
+667,Mr. Justin Murphy,52,Female,182,83,Yes,Stroke
+668,Ryan King,89,Female,170,62,No,Diabetes(type 1)
+669,Kyle Montgomery,45,Male,153,64,No,Cancer
+670,Brian Ward,47,Female,190,71,No,Stroke
+671,Joy Powell,53,Male,172,85,No,Covid19
+672,Michelle Hall MD,54,Female,179,69,Yes,Colds & Flu
+673,Frank Arnold,17,Female,142,37,Yes,Stroke
+674,Adam Clark,16,Male,138,39,No,Asthama
+675,Chloe Sandoval,22,Female,190,97,Yes,Stroke
+676,Nicole Oliver,15,Female,126,50,No,Diabetes(type 1)
+677,Carol Hall,37,Male,177,53,No,Allergies
+678,Cynthia White,10,Male,149,44,No,Colds & Flu
+679,Sheri Weber,45,Female,164,102,No,Depression
+680,Elizabeth Wilson,81,Male,199,119,No,Acne
+681,Jorge Leonard,30,Male,195,41,No,Hayfever
+682,Derrick Dominguez,88,Female,175,113,Yes,Covid19
+683,Christina Jimenez,70,Male,196,117,No,Covid19
+684,Gabriel Barker,80,Male,199,86,No,Hypertension
+685,Miss Jody Snyder,52,Female,173,76,No,Acne
+686,Anthony Adams,6,Male,136,50,No,Asthama
+687,Linda Whitney,9,Female,127,39,Yes,Cancer
+688,Austin Morton,47,Male,189,52,No,Cancer
+689,Steven Maddox,62,Male,162,56,No,Hayfever
+690,Kayla Guerrero,50,Female,177,43,Yes,Diabetes(type 1)
+691,Alexandra Parker,44,Female,171,57,No,Diabetes(type 1)
+692,Carol Robinson,4,Female,100,40,Yes,Depression
+693,Wayne Clarke,63,Male,152,52,No,Hypertension
+694,Diana Newton,58,Female,159,99,No,Hypertension
+695,Kenneth Yang,29,Female,163,114,Yes,Asthama
+696,Angela Hahn,31,Male,161,52,No,Acne
+697,Shawn Williams,25,Male,165,89,No,Colds & Flu
+698,Jessica Carson,72,Male,183,82,No,Allergies
+699,Victoria Huber,50,Female,189,110,Yes,Diabetes(type 1)
+700,Elizabeth Christian,31,Female,166,68,No,Diabetes(type 1)
+701,Brian Cunningham,49,Female,184,46,Yes,Acne
+702,Timothy Sellers,73,Female,169,111,No,Acne
+703,Rachel Alexander,41,Female,159,46,No,Stroke
+704,Deborah Anderson,27,Male,184,44,No,Asthama
+705,Cindy Walker,35,Male,200,70,No,Diabetes(type 1)
+706,Steven Thomas,67,Female,190,52,Yes,Hypertension
+707,Christine Boyd,44,Male,164,104,No,Hayfever
+708,Lindsey Ford,68,Male,175,42,No,Stroke
+709,Jason Glenn,81,Female,185,64,Yes,Diabetes(type 1)
+710,Heather Richardson,86,Female,154,95,No,Stroke
+711,Alec Williams,85,Female,198,105,No,Colds & Flu
+712,Marvin Gonzalez,40,Male,184,68,No,Allergies
+713,Lisa Lopez,19,Female,184,94,Yes,Allergies
+714,Shannon Alvarez DDS,81,Male,167,44,No,Allergies
+715,Julie Pierce MD,67,Female,174,45,No,Diabetes(type 2)
+716,Angel Davis,18,Male,172,98,No,Acne
+717,Dennis Khan,9,Male,107,34,No,Covid19
+718,Christopher Ewing,68,Male,156,96,No,Acne
+719,Heather Daugherty,60,Male,187,65,No,Hypertension
+720,Olivia Rose,74,Male,181,117,No,Hayfever
+721,Cheryl Johnston,66,Male,156,94,No,Hayfever
+722,Destiny Preston,44,Female,174,46,No,Diabetes(type 2)
+723,Travis Park,73,Female,160,64,No,Allergies
+724,Travis Ferguson,86,Female,159,101,No,Colds & Flu
+725,Yesenia Payne,14,Male,129,37,No,Allergies
+726,Kathleen Clark,4,Male,120,40,No,Allergies
+727,Zachary Snyder,25,Male,171,53,No,Stroke
+728,Frank Page,8,Male,103,50,No,Hayfever
+729,Melissa Wyatt,7,Female,140,34,No,Depression
+730,Francisco Herrera,39,Male,156,45,No,Depression
+731,Steven Fernandez,34,Male,162,60,No,Covid19
+732,Jacqueline Singh,47,Male,177,66,No,Colds & Flu
+733,Rebecca Strickland,52,Male,164,115,No,Allergies
+734,Michelle Preston,42,Male,184,93,No,Acne
+735,Matthew Mclean,27,Male,155,95,No,Depression
+736,Gloria Rodriguez,74,Male,194,69,No,Diabetes(type 2)
+737,Angela Raymond,86,Male,157,48,No,Diabetes(type 1)
+738,Jesse Bryan,23,Male,188,104,No,Colds & Flu
+739,Timothy Gomez,72,Female,171,45,Yes,Hayfever
+740,Timothy Escobar,17,Male,125,40,No,Hypertension
+741,Kristen Morgan,55,Female,177,118,Yes,Depression
+742,Molly Mclaughlin,77,Male,177,109,No,Hypertension
+743,Laura Jenkins,6,Female,115,32,No,Acne
+744,Diane Miller,16,Female,145,48,Yes,Acne
+745,Amanda Rogers,54,Male,155,105,No,Stroke
+746,Stacy Moore,89,Female,155,59,Yes,Diabetes(type 2)
+747,Christina Mitchell MD,19,Male,195,115,No,Covid19
+748,Robin Petersen,74,Female,158,42,No,Asthama
+749,Timothy Vazquez,7,Female,100,38,Yes,Diabetes(type 2)
+750,Robert Mitchell,60,Female,167,82,No,Diabetes(type 1)
+751,Michelle Leon,89,Male,181,45,No,Acne
+752,Teresa Robinson,46,Female,155,81,Yes,Stroke
+753,Susan Hall,68,Male,183,119,No,Allergies
+754,Ronald Hinton,60,Male,152,77,No,Allergies
+755,Joseph Wade,14,Female,123,30,Yes,Colds & Flu
+756,Spencer Blackburn,14,Male,143,43,No,Cancer
+757,Cassandra Jackson,32,Male,169,45,No,Hayfever
+758,Jesse Morrison,11,Male,147,40,No,Depression
+759,Michael Stewart,31,Female,199,46,Yes,Diabetes(type 2)
+760,Robert Schmidt,76,Male,175,69,No,Acne
+761,John Miller,56,Female,197,74,No,Covid19
+762,Gary Ochoa,32,Female,185,61,Yes,Diabetes(type 1)
+763,Beth Jones,70,Male,179,64,No,Hypertension
+764,Joseph Scott,65,Male,180,117,No,Cancer
+765,Annette Schmidt,78,Female,193,100,Yes,Acne
+766,Jessica Martin,12,Female,104,45,Yes,Diabetes(type 2)
+767,Jason Brown,37,Male,161,81,No,Asthama
+768,Rachel Hunt,25,Male,156,82,No,Colds & Flu
+769,Renee Riley,82,Female,167,56,Yes,Diabetes(type 1)
+770,Becky Davis,68,Female,198,47,No,Diabetes(type 1)
+771,Karen Berg,60,Male,196,97,No,Stroke
+772,Jill Brown,79,Male,194,68,No,Depression
+773,Crystal Wilson,51,Male,155,117,No,Stroke
+774,James Gomez,18,Male,200,69,No,Hypertension
+775,Kristen Turner,80,Female,199,42,No,Hayfever
+776,John Jones,25,Male,169,68,No,Acne
+777,Mrs. Teresa Christian,72,Female,174,67,Yes,Hypertension
+778,Taylor Wells,64,Female,200,97,Yes,Cancer
+779,Nancy Lee,58,Female,172,59,Yes,Acne
+780,Judith Kline,30,Female,185,79,Yes,Allergies
+781,Lisa Lawrence,44,Female,155,85,Yes,Diabetes(type 2)
+782,Nicole Copeland,74,Male,158,69,No,Diabetes(type 2)
+783,Daniel Johnson,62,Male,191,100,No,Colds & Flu
+784,Susan Robinson,68,Female,168,97,No,Covid19
+785,Ronald Guerra,30,Male,176,41,No,Diabetes(type 1)
+786,Paul Christensen,18,Female,150,113,No,Colds & Flu
+787,Andrea Morgan,18,Female,193,103,No,Covid19
+788,Amber Pena,34,Female,192,47,Yes,Acne
+789,Brian Ross,58,Female,187,48,No,Hayfever
+790,David Hernandez,38,Female,168,50,Yes,Covid19
+791,Daniel Peterson,24,Male,165,66,No,Covid19
+792,Levi Lambert,9,Female,132,37,Yes,Depression
+793,Angela Jones,12,Female,106,41,Yes,Asthama
+794,Denise Rose,36,Female,182,69,Yes,Hypertension
+795,Lori Smith,40,Male,189,94,No,Colds & Flu
+796,Heather Perry,4,Male,144,41,No,Allergies
+797,Carlos Brown,56,Male,157,69,No,Colds & Flu
+798,Kyle Moore,37,Female,181,47,No,Depression
+799,Brian Fernandez,8,Female,119,35,No,Diabetes(type 1)
+800,Corey Powell,40,Female,199,44,Yes,Diabetes(type 1)
+801,Jeffery Blake,85,Female,155,76,No,Depression
+802,Ms. Karen Pittman DVM,11,Male,131,38,No,Colds & Flu
+803,Eric Murray,45,Female,175,91,Yes,Hayfever
+804,Marie Villarreal,44,Male,175,111,No,Covid19
+805,Joshua Morris,89,Female,196,98,Yes,Depression
+806,Jamie Davis,29,Male,158,60,No,Acne
+807,Hannah Garcia,54,Female,167,63,No,Cancer
+808,Chloe Henry,51,Female,166,78,No,Covid19
+809,Janet Fox,79,Female,165,70,Yes,Acne
+810,Sherry Kim,24,Male,159,80,No,Stroke
+811,Patrick May,82,Male,189,48,No,Cancer
+812,Joshua Schmitt,60,Male,182,93,No,Diabetes(type 1)
+813,William Oliver,17,Female,110,35,Yes,Covid19
+814,Jennifer Frazier,18,Female,170,58,No,Cancer
+815,Russell Olson,44,Male,160,47,No,Hayfever
+816,Emily Scott,24,Male,176,40,No,Diabetes(type 2)
+817,Angela Clark,42,Male,197,54,No,Depression
+818,Casey Walker,86,Female,185,53,No,Acne
+819,Jeffery Brown,80,Male,180,104,No,Covid19
+820,Richard Williams,80,Female,197,72,Yes,Asthama
+821,Jeffrey Reid,11,Female,135,46,No,Depression
+822,Jason Rodriguez,65,Male,189,87,No,Diabetes(type 1)
+823,Shawn Mayer,41,Male,181,61,No,Covid19
+824,Jason Burns,37,Male,162,102,No,Hypertension
+825,Jake White,69,Male,151,77,No,Stroke
+826,Kelly Ferguson,55,Male,159,45,No,Cancer
+827,Christine Myers,28,Male,174,98,No,Diabetes(type 1)
+828,Diana Banks,51,Female,154,108,No,Depression
+829,Michael Dorsey,7,Female,140,33,No,Colds & Flu
+830,Michael Yates DVM,57,Male,195,53,No,Diabetes(type 1)
+831,Jose Gilmore,76,Female,196,83,No,Stroke
+832,Adrian Barnes,11,Female,111,47,No,Asthama
+833,Nathan Baker,70,Female,162,118,No,Diabetes(type 1)
+834,Tammy Gordon,68,Male,158,81,No,Asthama
+835,Julie Hayes,53,Female,191,94,Yes,Allergies
+836,Andre Dixon,26,Female,156,52,No,Stroke
+837,Alexandria Miller,15,Female,139,34,Yes,Colds & Flu
+838,Shannon Deleon,7,Female,100,41,No,Asthama
+839,Donna Bailey,72,Female,174,83,No,Hypertension
+840,Christopher Barrera,80,Male,165,40,No,Diabetes(type 1)
+841,Christopher Edwards,15,Male,100,30,No,Allergies
+842,Amanda Johnson,70,Female,172,79,Yes,Depression
+843,Brandon Smith,89,Male,192,103,No,Acne
+844,Jeffery Boyer,14,Female,116,31,Yes,Hayfever
+845,Michelle Leblanc,70,Male,173,74,No,Stroke
+846,Mr. Timothy Murphy,36,Female,188,83,Yes,Cancer
+847,Deborah Fernandez,86,Female,174,50,Yes,Depression
+848,Eric Knight,27,Female,183,97,Yes,Asthama
+849,Brooke Williams,39,Male,157,102,No,Stroke
+850,Lauren Ramos,43,Female,165,113,No,Acne
+851,Christian Gutierrez,17,Male,132,50,No,Cancer
+852,Rickey Cox,86,Male,172,99,No,Depression
+853,Matthew Butler,58,Male,188,77,No,Asthama
+854,Andrea Young,14,Male,129,50,No,Covid19
+855,Christine Chavez,33,Male,189,100,No,Stroke
+856,Jeremy Beltran,12,Male,134,45,No,Allergies
+857,Heather Marshall,69,Male,175,110,No,Asthama
+858,Claudia Hill,70,Male,196,82,No,Hayfever
+859,Stephanie Kent,82,Female,151,60,Yes,Diabetes(type 2)
+860,Kelsey Ball,74,Female,171,45,Yes,Acne
+861,Laura Hampton,42,Male,153,62,No,Colds & Flu
+862,David Lopez,49,Female,200,57,Yes,Depression
+863,Stephen Robinson,20,Female,176,115,No,Hayfever
+864,Katie Newman MD,12,Female,144,48,No,Colds & Flu
+865,Andrea Branch,80,Male,154,89,No,Diabetes(type 2)
+866,Paul Simpson,6,Female,110,40,No,Acne
+867,Corey Fox,55,Female,154,91,Yes,Depression
+868,Keith Ewing,40,Female,188,118,Yes,Colds & Flu
+869,Brad Rowland,59,Male,187,94,No,Hayfever
+870,Charles Perez,33,Female,181,81,No,Hayfever
+871,Tyler Daniel,76,Female,161,46,Yes,Depression
+872,Dr. Jenna Stephens,78,Female,167,84,No,Diabetes(type 1)
+873,Jonathan Guzman,61,Male,154,56,No,Hayfever
+874,Michelle Lee,40,Female,186,85,Yes,Colds & Flu
+875,Ernest Vasquez,50,Male,174,97,No,Asthama
+876,Erin Mcmahon,51,Male,191,82,No,Allergies
+877,Jocelyn Moore,31,Male,184,65,No,Cancer
+878,Karl Petty,52,Female,169,68,No,Colds & Flu
+879,Jacob Garcia,23,Male,176,101,No,Asthama
+880,John Meyer,37,Female,186,116,Yes,Covid19
+881,Desiree Lowe,13,Female,147,44,Yes,Acne
+882,Timothy Oconnell,39,Female,155,90,Yes,Hypertension
+883,Edward Allen,19,Female,174,42,Yes,Cancer
+884,Mary Hill,89,Male,150,51,No,Diabetes(type 2)
+885,Christopher Miller,67,Male,169,51,No,Depression
+886,Tristan Cooper,81,Male,183,94,No,Diabetes(type 2)
+887,Jennifer Anderson,67,Female,177,67,Yes,Depression
+888,Mrs. Sara Gonzalez MD,15,Female,129,40,Yes,Allergies
+889,Jeffrey Alvarez,72,Male,196,96,No,Covid19
+890,Erin Jennings,41,Male,150,70,No,Hypertension
+891,Steven Lucas,31,Female,197,77,No,Diabetes(type 1)
+892,Jessica Day,81,Male,178,58,No,Asthama
+893,Michael Howard,12,Male,103,37,No,Colds & Flu
+894,John Gonzales,71,Male,192,98,No,Asthama
+895,Jacqueline Leach,4,Male,130,34,No,Colds & Flu
+896,Kristy Moore,88,Male,185,59,No,Asthama
+897,Derrick Ramirez III,40,Male,173,99,No,Colds & Flu
+898,April Martin,19,Male,164,49,No,Stroke
+899,Richard Russell,77,Female,183,67,No,Diabetes(type 2)
+900,Brittany Cobb,66,Female,167,71,No,Allergies
+901,Tara Morrison,12,Female,120,43,No,Diabetes(type 2)
+902,Theresa Chen,57,Female,151,107,Yes,Hypertension
+903,Anthony Jordan,46,Female,197,60,No,Hayfever
+904,Mr. Douglas Flores,30,Female,159,65,No,Depression
+905,Cheryl Andersen,42,Female,153,73,Yes,Colds & Flu
+906,Carl Lopez,84,Male,188,61,No,Covid19
+907,Amanda White,80,Male,183,68,No,Acne
+908,Stacey Cox,22,Female,197,58,No,Allergies
+909,Brian Morris,8,Male,125,40,No,Allergies
+910,Robert Stanley,36,Female,163,92,Yes,Asthama
+911,Melvin Robles,64,Female,153,57,No,Colds & Flu
+912,Dr. Anthony Clayton,79,Male,178,98,No,Colds & Flu
+913,Anthony Nguyen,56,Female,168,77,No,Hayfever
+914,Debra Lawrence,41,Male,162,110,No,Colds & Flu
+915,Thomas Gonzalez,34,Female,156,65,No,Allergies
+916,Shelley Jones,38,Male,177,87,No,Colds & Flu
+917,Samantha Maxwell,12,Female,140,43,No,Asthama
+918,Susan Ramsey,36,Female,195,98,Yes,Allergies
+919,Stephanie Chavez,28,Female,182,114,Yes,Acne
+920,Michael Smith,32,Male,166,87,No,Asthama
+921,Robert Stout,89,Male,183,70,No,Cancer
+922,Karen Campbell,34,Female,162,57,No,Stroke
+923,Roy Campbell,27,Female,181,48,Yes,Covid19
+924,Jeffrey Chase,45,Male,197,80,No,Asthama
+925,William Massey,23,Female,174,119,Yes,Diabetes(type 1)
+926,Lisa Arroyo,50,Female,195,80,Yes,Allergies
+927,Roberta Smith,84,Female,196,84,No,Colds & Flu
+928,Alejandro Morales,57,Female,165,75,Yes,Colds & Flu
+929,William Wood,38,Female,168,69,No,Allergies
+930,Dr. Christopher Oconnor,17,Female,131,48,Yes,Allergies
+931,Casey Ruiz,83,Female,198,91,No,Stroke
+932,Cheryl Warren,8,Female,106,38,No,Acne
+933,Sara Dorsey,58,Female,150,91,No,Depression
+934,Richard Monroe,16,Female,133,46,No,Cancer
+935,Miranda Mendoza,58,Female,194,59,Yes,Asthama
+936,Daisy Johnson,71,Female,168,82,Yes,Diabetes(type 2)
+937,Sean Chan,72,Female,173,83,No,Covid19
+938,Rachael Humphrey,90,Male,155,71,No,Allergies
+939,Nancy Garcia,86,Female,180,111,No,Covid19
+940,Jacob Moore,79,Male,192,58,No,Asthama
+941,Elizabeth Reese,44,Female,174,110,No,Depression
+942,Hannah Walker,90,Male,158,88,No,Hypertension
+943,Sarah Williams,35,Male,167,40,No,Cancer
+944,James Acevedo,37,Female,191,53,Yes,Cancer
+945,Janet Mcfarland,86,Male,198,49,No,Hypertension
+946,Maria Burke,79,Female,179,50,No,Asthama
+947,Vicki Montgomery,84,Female,151,120,Yes,Hypertension
+948,Allen Keller,15,Male,106,30,No,Depression
+949,Linda Juarez,51,Male,190,108,No,Asthama
+950,Kari Jordan,8,Male,116,49,No,Acne
+951,Jason Dunn,9,Female,106,42,No,Diabetes(type 2)
+952,Tammy Rose,64,Female,154,73,No,Covid19
+953,Lindsey Johnson,76,Male,189,77,No,Asthama
+954,Paul Smith,46,Female,188,96,Yes,Diabetes(type 2)
+955,Steve Palmer,37,Male,152,118,No,Stroke
+956,Rebecca Barber,11,Female,100,39,Yes,Hayfever
+957,Michael Marquez,25,Male,196,72,No,Cancer
+958,Stephanie Mcpherson,73,Male,153,67,No,Depression
+959,Joseph Gomez,81,Female,177,96,Yes,Covid19
+960,Ethan Foster,24,Male,172,84,No,Depression
+961,Laura Burton,27,Female,161,66,No,Stroke
+962,Amber Singleton,45,Female,173,113,Yes,Asthama
+963,April Collins,66,Male,157,72,No,Depression
+964,Riley Lewis,33,Male,151,101,No,Colds & Flu
+965,Elizabeth Orozco,26,Male,183,116,No,Hayfever
+966,Kendra Molina,45,Female,195,44,Yes,Allergies
+967,Christopher Sims,81,Female,162,65,Yes,Hypertension
+968,Tracy Green,16,Female,142,40,No,Colds & Flu
+969,Melissa Singh,6,Female,140,34,Yes,Stroke
+970,Margaret Pugh,30,Female,195,49,Yes,Diabetes(type 1)
+971,Robert Berger,73,Male,195,107,No,Cancer
+972,Deborah Johnson,9,Male,134,35,No,Covid19
+973,Timothy Pearson,51,Male,168,87,No,Stroke
+974,Christopher Young,51,Female,195,105,Yes,Cancer
+975,Gregory Harper,40,Female,199,84,Yes,Hayfever
+976,Joshua Sanders,58,Female,151,76,Yes,Cancer
+977,Sylvia Hess,17,Male,114,31,No,Acne
+978,Jordan Chase,65,Male,161,90,No,Cancer
+979,Alicia Perez,58,Male,187,106,No,Diabetes(type 1)
+980,Amber Brooks,89,Female,195,74,Yes,Hayfever
+981,Monica Hunt,89,Male,178,72,No,Covid19
+982,Manuel Fuller,72,Male,199,79,No,Cancer
+983,Jonathan Smith,5,Female,102,30,No,Colds & Flu
+984,Stephanie Santiago,48,Male,195,42,No,Depression
+985,Tonya Jones,12,Female,138,30,Yes,Hayfever
+986,Sean Dunlap,90,Male,152,54,No,Asthama
+987,Robert Castro,89,Female,177,51,Yes,Depression
+988,Denise Pacheco,43,Female,161,86,No,Depression
+989,Parker Ferguson,19,Male,169,97,No,Diabetes(type 1)
+990,Laura Nguyen,43,Female,181,46,No,Acne
+991,Martin Williams,77,Male,154,45,No,Allergies
+992,Adam Carroll,6,Female,144,49,No,Diabetes(type 2)
+993,Lisa Graham,38,Female,170,50,No,Diabetes(type 1)
+994,Dean Dougherty,46,Male,195,56,No,Acne
+995,Jessica Smith,21,Female,198,43,No,Hypertension
+996,Cory Gray,58,Female,172,112,No,Depression
+997,Mr. Scott Guerra,20,Female,154,82,No,Acne
+998,Paula Johnson,76,Female,163,94,No,Covid19
+999,Holly Patterson,47,Female,185,57,Yes,Cancer
+1000,Aaron Wilson,75,Female,163,114,No,Diabetes(type 1)
+1001,Melinda Harris,60,Male,183,96,No,Colds & Flu
+1002,Francisco Hutchinson,63,Male,173,73,No,Asthama
+1003,Elizabeth Barrett,31,Female,163,115,No,Diabetes(type 1)
+1004,Holly Mills,37,Female,169,118,No,Diabetes(type 1)
+1005,William Fernandez,44,Male,197,52,No,Diabetes(type 1)
+1006,Kenneth Hall,64,Male,160,74,No,Hayfever
+1007,Jason York,5,Female,118,44,No,Diabetes(type 1)
+1008,Sarah Sanchez,56,Male,191,85,No,Diabetes(type 2)
+1009,Edward Thomas,57,Male,176,68,No,Stroke
+1010,Vickie Smith,58,Male,188,117,No,Hypertension
+1011,Amy Benson,80,Male,168,74,No,Asthama
+1012,Eric Martin,59,Male,157,44,No,Colds & Flu
+1013,Anna Olson,15,Male,144,40,No,Asthama
+1014,Leah Wilson,35,Female,166,117,No,Diabetes(type 1)
+1015,David White,5,Male,113,44,No,Diabetes(type 2)
+1016,Jennifer Murray,42,Male,192,73,No,Covid19
+1017,Michael Brooks,39,Female,174,60,Yes,Hypertension
+1018,Daniel Lane,6,Male,104,40,No,Diabetes(type 1)
+1019,Joseph Watson,18,Female,195,68,No,Acne
+1020,Joanna Preston,63,Female,168,52,Yes,Cancer
+1021,Micheal Miller,54,Female,199,118,No,Diabetes(type 1)
+1022,Dr. Cheryl Coleman,40,Female,155,41,No,Stroke
+1023,Shelia Gross,35,Male,182,62,No,Colds & Flu
+1024,Robin Welch,56,Female,165,73,No,Cancer
+1025,William Gardner,67,Male,166,115,No,Asthama
+1026,Christopher Dougherty,42,Female,178,94,Yes,Covid19
+1027,Michael Ayala,51,Female,199,120,No,Allergies
+1028,Jesse Frye,72,Male,170,72,No,Cancer
+1029,Charles Anderson,29,Female,178,46,No,Stroke
+1030,Sean Shelton,10,Female,110,30,No,Diabetes(type 1)
+1031,Barbara Richardson,59,Male,190,101,No,Diabetes(type 1)
+1032,Adam Warren,17,Female,110,35,Yes,Diabetes(type 2)
+1033,Kelly Flowers,40,Male,160,62,No,Depression
+1034,Jamie Bailey,43,Female,178,50,No,Stroke
+1035,Tina Kerr,23,Female,185,90,No,Hypertension
+1036,Richard Jones,49,Female,150,61,Yes,Allergies
+1037,Kevin West,77,Female,161,80,No,Depression
+1038,Laura Luna,57,Male,200,58,No,Depression
+1039,Jesse Durham,66,Female,171,75,No,Allergies
+1040,Sherri Carroll,33,Male,196,87,No,Hayfever
+1041,Jacqueline Gordon,19,Female,191,62,Yes,Cancer
+1042,Jasmine Soto,11,Female,145,49,Yes,Depression
+1043,Jeffery Bishop,82,Female,162,116,Yes,Cancer
+1044,Lisa Smith,55,Female,150,105,No,Cancer
+1045,James Ryan,41,Male,157,116,No,Asthama
+1046,Sandra Ford,22,Female,155,89,No,Depression
+1047,Dr. Caitlin Montoya MD,24,Male,175,44,No,Depression
+1048,Christy Atkinson,21,Male,161,86,No,Diabetes(type 2)
+1049,Justin Meza,54,Female,172,46,Yes,Hypertension
+1050,Brian Melton,73,Female,169,95,No,Covid19
+1051,Mrs. Melissa Wilson,21,Female,182,111,No,Allergies
+1052,Jerry Alexander,42,Female,172,90,No,Covid19
+1053,Michael Bauer,4,Male,150,36,No,Depression
+1054,Robin Carpenter,28,Female,185,59,No,Covid19
+1055,Jeffery Smith,68,Male,172,69,No,Covid19
+1056,Erin Berg,67,Female,156,54,No,Allergies
+1057,Suzanne Black,23,Male,200,120,No,Diabetes(type 1)
+1058,Michael Hill,81,Female,172,75,Yes,Acne
+1059,Christopher Reilly,60,Male,195,93,No,Diabetes(type 1)
+1060,Kenneth Lee,86,Female,192,41,Yes,Acne
+1061,Tara Morgan,14,Female,132,45,Yes,Acne
+1062,Thomas Kim,71,Male,165,88,No,Cancer
+1063,Patricia Mcintosh,60,Female,150,74,No,Allergies
+1064,Mary Russell,45,Male,181,119,No,Covid19
+1065,Donna Thornton,19,Female,182,66,Yes,Allergies
+1066,Marissa Fisher,9,Female,109,39,Yes,Depression
+1067,Meghan George,86,Male,155,57,No,Acne
+1068,Robert Rodriguez,76,Male,171,85,No,Acne
+1069,Colleen Evans,86,Female,179,97,Yes,Diabetes(type 1)
+1070,Christine Short,27,Male,167,49,No,Asthama
+1071,Caroline Green,45,Male,192,55,No,Stroke
+1072,Sean Conley,50,Female,199,60,No,Cancer
+1073,Jocelyn Sellers,48,Male,162,52,No,Hayfever
+1074,Diana Cunningham,55,Male,194,72,No,Acne
+1075,Eric Hall,56,Female,178,75,No,Hypertension
+1076,Anna Mayo,6,Male,110,43,No,Diabetes(type 1)
+1077,Gerald Stone,46,Female,151,68,Yes,Hypertension
+1078,Christopher Holland,67,Male,199,104,No,Allergies
+1079,Ashley Holmes,44,Male,199,71,No,Hayfever
+1080,Alex Guzman,41,Male,192,56,No,Hypertension
+1081,Rebecca Ramirez,33,Male,181,86,No,Stroke
+1082,Douglas Ross,57,Male,151,59,No,Diabetes(type 2)
+1083,Jonathan Pacheco,76,Female,167,42,Yes,Diabetes(type 2)
+1084,Brenda Simmons,60,Male,183,55,No,Covid19
+1085,Troy Martinez,13,Male,101,45,No,Diabetes(type 2)
+1086,Carl Reilly,75,Male,199,77,No,Allergies
+1087,Kelly Miller,58,Female,186,48,No,Hypertension
+1088,Thomas Weaver,41,Female,160,93,No,Cancer
+1089,Melanie Wheeler,59,Female,186,91,Yes,Colds & Flu
+1090,Brittany Edwards,57,Male,198,40,No,Cancer
+1091,Jane Carey MD,56,Male,172,72,No,Acne
+1092,Jasmine Clark,85,Male,160,74,No,Stroke
+1093,Kimberly Chaney,8,Male,121,42,No,Diabetes(type 2)
+1094,Robert Morgan,5,Male,107,32,No,Colds & Flu
+1095,Amber Hernandez,6,Male,133,30,No,Asthama
+1096,Amy Tate,37,Female,196,79,No,Cancer
+1097,James Landry MD,9,Female,149,31,Yes,Diabetes(type 2)
+1098,Jeremy Rogers,85,Female,192,90,No,Colds & Flu
+1099,Tyrone Chang,83,Male,163,99,No,Hayfever
+1100,Victor Guzman,17,Male,104,45,No,Diabetes(type 1)
+1101,Kimberly Hansen,66,Female,187,61,No,Colds & Flu
+1102,Mary Woods,66,Male,184,78,No,Diabetes(type 2)
+1103,Dr. James Gibson,64,Female,186,83,No,Diabetes(type 1)
+1104,Michael Floyd,9,Female,137,50,Yes,Diabetes(type 1)
+1105,Cynthia Kirby,49,Female,154,94,Yes,Allergies
+1106,Colleen Mendoza,16,Female,119,47,No,Depression
+1107,Michelle Munoz,27,Female,172,47,Yes,Depression
+1108,John Collins,22,Male,179,114,No,Colds & Flu
+1109,Sabrina Gregory,51,Female,161,101,No,Covid19
+1110,Jessica Lee,49,Male,159,120,No,Allergies
+1111,Kathryn Murphy,27,Female,151,93,No,Diabetes(type 1)
+1112,Curtis Kelley,10,Male,144,47,No,Covid19
+1113,Amanda Hall,5,Male,117,34,No,Cancer
+1114,Alan Patrick,84,Female,197,91,No,Diabetes(type 1)
+1115,Raymond Smith,50,Female,190,61,Yes,Asthama
+1116,Brian Evans,70,Male,200,100,No,Acne
+1117,Jerry Osborne,19,Female,156,43,No,Acne
+1118,Kellie Mercado,34,Female,152,88,Yes,Allergies
+1119,Jesse Thompson,60,Female,182,77,Yes,Cancer
+1120,David Melton,35,Male,181,60,No,Allergies
+1121,Adriana Rodriguez,61,Female,176,79,Yes,Stroke
+1122,Laura Bradley,43,Male,194,73,No,Hypertension
+1123,Mrs. Deborah Simmons,35,Female,161,108,Yes,Asthama
+1124,Andrea Murillo,24,Male,198,116,No,Allergies
+1125,Dawn Gardner,59,Male,153,77,No,Diabetes(type 2)
+1126,Kathleen Wilson,38,Male,190,99,No,Cancer
+1127,Ashley Sims,23,Female,196,82,No,Cancer
+1128,Brittany Anderson,71,Female,159,109,No,Colds & Flu
+1129,Brandon Gutierrez,20,Female,199,112,No,Allergies
+1130,Jenna Kelley,21,Male,186,83,No,Hayfever
+1131,Meghan Spencer,39,Female,187,51,No,Depression
+1132,Mark Kelley,41,Male,153,79,No,Cancer
+1133,Tiffany Williams,66,Female,170,65,No,Diabetes(type 2)
+1134,Michael King,50,Male,155,116,No,Asthama
+1135,Micheal Lawrence,15,Female,149,46,No,Allergies
+1136,Mark Russo,9,Male,107,34,No,Depression
+1137,Susan Jimenez,5,Female,148,35,No,Colds & Flu
+1138,Paul Thompson,60,Female,168,77,No,Diabetes(type 2)
+1139,Mrs. Debra Coleman,65,Female,154,103,No,Acne
+1140,Jessica Tran,35,Female,174,79,Yes,Covid19
+1141,Amber Stafford,35,Female,186,113,No,Stroke
+1142,Marvin Huynh,70,Male,189,70,No,Diabetes(type 2)
+1143,Stacy Mcdaniel,58,Male,163,42,No,Hayfever
+1144,David Willis,29,Male,199,66,No,Allergies
+1145,Anthony Lee,47,Male,185,54,No,Hayfever
+1146,Christian Lewis,30,Male,166,102,No,Hypertension
+1147,Ms. Casey Allen,11,Male,107,42,No,Asthama
+1148,Angela Newman,6,Male,100,39,No,Cancer
+1149,Jason Pierce,22,Female,174,100,Yes,Hypertension
+1150,Michelle Palmer,10,Male,114,48,No,Hayfever
+1151,Timothy Salinas,80,Female,174,101,No,Covid19
+1152,Wesley Snyder,66,Female,164,60,Yes,Stroke
+1153,Madison Kline,82,Female,155,98,Yes,Colds & Flu
+1154,Tiffany Baker,88,Male,189,116,No,Acne
+1155,Steven Morgan,45,Male,156,88,No,Asthama
+1156,Monique Hudson,18,Female,150,113,No,Allergies
+1157,Marc Parker,80,Female,175,90,Yes,Diabetes(type 1)
+1158,Katie Tran,80,Female,174,80,No,Covid19
+1159,Sally Phillips,19,Male,191,55,No,Diabetes(type 1)
+1160,Whitney Malone,58,Male,157,119,No,Cancer
+1161,Wendy Collins,4,Female,102,36,No,Hayfever
+1162,Ronald Ponce,88,Male,199,68,No,Diabetes(type 2)
+1163,Samuel Holmes,43,Female,179,110,Yes,Acne
+1164,Nicholas Hernandez,69,Female,164,98,Yes,Hypertension
+1165,Andrea Wolf,74,Male,162,105,No,Stroke
+1166,Lisa Johnson,16,Female,117,35,Yes,Diabetes(type 1)
+1167,Karen Daniels,80,Male,178,73,No,Asthama
+1168,Michelle Hoover,80,Male,168,61,No,Asthama
+1169,Emily Ayala,81,Male,194,52,No,Diabetes(type 2)
+1170,Hannah Bailey,79,Male,195,51,No,Stroke
+1171,Jennifer Morales,35,Male,185,64,No,Diabetes(type 2)
+1172,Bruce Vance,34,Male,180,59,No,Asthama
+1173,Angelica Graham,6,Female,142,32,No,Covid19
+1174,Joshua Jones,65,Male,156,71,No,Depression
+1175,John Barron,55,Female,163,83,No,Depression
+1176,Nicole Collins,27,Male,179,113,No,Cancer
+1177,Jeff Smith,32,Male,150,45,No,Covid19
+1178,Kevin Walsh PhD,63,Female,177,120,No,Allergies
+1179,Samuel Rogers,48,Female,162,119,Yes,Diabetes(type 1)
+1180,Derrick Dunn,55,Male,152,47,No,Stroke
+1181,Larry Marks,61,Female,152,73,Yes,Asthama
+1182,Heidi Lindsey,17,Male,148,31,No,Asthama
+1183,Veronica Brooks,50,Male,188,112,No,Cancer
+1184,Amanda Cole,4,Female,136,37,Yes,Asthama
+1185,Walter Buchanan,32,Male,180,52,No,Depression
+1186,Stephanie Anderson,55,Male,150,49,No,Cancer
+1187,Holly Aguirre,70,Male,193,101,No,Acne
+1188,Ronald Schwartz,71,Female,195,86,Yes,Covid19
+1189,Jesse Norton,18,Male,193,72,No,Hayfever
+1190,Raymond Hicks,27,Female,164,101,No,Allergies
+1191,Charles May,63,Female,168,66,No,Depression
+1192,Mary Pugh,23,Male,199,70,No,Colds & Flu
+1193,Kevin White DDS,77,Male,167,44,No,Hayfever
+1194,Melissa Solomon,74,Female,187,89,Yes,Stroke
+1195,Mr. Leonard Martin,21,Female,150,64,Yes,Cancer
+1196,Mark Jacobs,29,Female,169,68,Yes,Colds & Flu
+1197,James Rosales,47,Male,182,69,No,Depression
+1198,Dr. Peter Valencia,65,Male,163,91,No,Diabetes(type 2)
+1199,Gary Alexander,42,Male,175,109,No,Hypertension
+1200,Kristin Gonzales,61,Male,194,118,No,Diabetes(type 2)
+1201,Jason Hill,81,Male,161,102,No,Depression
+1202,Adrian Cook,86,Female,185,83,No,Depression
+1203,Michael Edwards MD,22,Female,198,95,No,Acne
+1204,Michael Taylor,71,Male,164,98,No,Covid19
+1205,Sylvia Wheeler,24,Male,200,77,No,Diabetes(type 2)
+1206,Ashley Riley,51,Female,156,48,No,Acne
+1207,Elizabeth Miller,62,Male,180,52,No,Diabetes(type 1)
+1208,Jennifer Young,34,Female,190,51,No,Diabetes(type 1)
+1209,Jacqueline West,12,Female,147,44,Yes,Asthama
+1210,Justin Whitney,18,Female,191,105,Yes,Stroke
+1211,Joshua Hanson,65,Male,181,77,No,Diabetes(type 1)
+1212,David Montoya,40,Male,166,91,No,Hayfever
+1213,Brady Neal,89,Male,188,112,No,Allergies
+1214,Kristin Wilson,52,Male,161,53,No,Diabetes(type 2)
+1215,Valerie Bowman,22,Female,170,99,Yes,Acne
+1216,Kathleen Jones,38,Female,164,41,Yes,Diabetes(type 2)
+1217,Rhonda Williams,58,Male,183,49,No,Cancer
+1218,Justin Lutz,33,Female,191,42,Yes,Diabetes(type 1)
+1219,Scott Montgomery,40,Male,194,116,No,Allergies
+1220,Brandi Cunningham MD,45,Female,157,62,No,Hayfever
+1221,Timothy Roberts,36,Female,170,97,No,Diabetes(type 1)
+1222,Chelsea Johnson,23,Male,182,60,No,Colds & Flu
+1223,Antonio Henry,26,Female,172,53,Yes,Covid19
+1224,Dwayne Mejia,83,Male,153,69,No,Acne
+1225,Veronica Martin,26,Female,186,113,No,Diabetes(type 1)
+1226,Scott Mills,33,Male,154,116,No,Diabetes(type 2)
+1227,Shawn Klein,57,Male,174,110,No,Acne
+1228,Erin Anderson PhD,45,Female,162,43,No,Acne
+1229,Tara Robinson,19,Male,197,89,No,Diabetes(type 2)
+1230,Susan Obrien,31,Female,157,93,Yes,Hayfever
+1231,Kristin Hahn,88,Male,200,56,No,Covid19
+1232,Jose Alexander,49,Male,185,101,No,Asthama
+1233,David Simmons,28,Female,187,57,Yes,Diabetes(type 2)
+1234,Joseph Bond,32,Female,159,86,No,Hypertension
+1235,Elizabeth White,58,Male,178,86,No,Covid19
+1236,Jason English,29,Male,175,79,No,Diabetes(type 2)
+1237,Christina Wood,46,Male,164,117,No,Cancer
+1238,Dr. Adam Henderson,20,Male,193,45,No,Stroke
+1239,Michael Cole,62,Male,196,78,No,Diabetes(type 2)
+1240,Mark Gutierrez,36,Male,164,90,No,Stroke
+1241,Daniel Blake,77,Female,169,42,Yes,Diabetes(type 1)
+1242,Rhonda Orozco,80,Female,184,84,Yes,Allergies
+1243,Janet Cooke,12,Male,122,37,No,Stroke
+1244,Maria Simpson,66,Male,187,68,No,Hypertension
+1245,Jamie Lang,27,Female,191,54,No,Asthama
+1246,Haley Aguilar,82,Female,151,106,No,Diabetes(type 2)
+1247,Gregory Clark,29,Female,168,113,No,Allergies
+1248,David King,28,Male,184,80,No,Diabetes(type 1)
+1249,Jared Curry,73,Female,185,107,Yes,Asthama
+1250,Stephen Torres,18,Male,188,106,No,Covid19
+1251,Anne Roberts,12,Female,124,45,No,Stroke
+1252,Susan Young,66,Male,168,83,No,Acne
+1253,Laura Bradford,59,Female,173,108,No,Allergies
+1254,Joel Davis,16,Female,100,43,No,Asthama
+1255,Terry Callahan,75,Male,165,46,No,Diabetes(type 1)
+1256,Sandra Gomez,22,Female,193,52,Yes,Depression
+1257,Scott Combs MD,8,Male,146,41,No,Allergies
+1258,Michael Alvarez,90,Male,181,67,No,Hayfever
+1259,Bradley Suarez,4,Female,111,50,No,Acne
+1260,Russell Brown,51,Male,184,75,No,Cancer
+1261,Lauren Whitney,7,Female,141,49,No,Allergies
+1262,Kenneth Alvarado,81,Female,184,50,No,Cancer
+1263,Thomas Arnold,25,Male,168,54,No,Hypertension
+1264,Adrian Hendrix,21,Male,188,40,No,Stroke
+1265,Caroline Boyd,14,Female,112,49,No,Asthama
+1266,David Torres,6,Male,118,34,No,Hayfever
+1267,Joseph Sherman,16,Female,136,36,No,Hayfever
+1268,Jason Garcia,39,Male,172,72,No,Diabetes(type 2)
+1269,Michele Mcclure,61,Female,159,61,No,Covid19
+1270,Karen Thompson,50,Female,159,114,No,Stroke
+1271,Brian Alvarado,61,Male,195,88,No,Colds & Flu
+1272,Joshua Murphy,87,Female,158,102,Yes,Depression
+1273,Catherine Erickson,50,Female,199,115,Yes,Depression
+1274,Brian Green,14,Male,113,46,No,Covid19
+1275,Janice Wright,88,Male,165,83,No,Depression
+1276,Cathy Davila,82,Male,174,65,No,Covid19
+1277,Whitney Perez,20,Male,150,91,No,Asthama
+1278,Cameron Winters,28,Female,190,109,Yes,Covid19
+1279,Charles Anderson,13,Female,111,50,Yes,Stroke
+1280,Summer Bradley MD,37,Female,174,93,No,Acne
+1281,Fernando Fisher,50,Female,171,57,No,Diabetes(type 2)
+1282,Anthony Johnson,89,Male,150,108,No,Covid19
+1283,Tara Mcmillan,56,Female,165,59,Yes,Allergies
+1284,Charles Clay,32,Female,156,90,No,Allergies
+1285,Mallory Hutchinson,18,Female,157,85,Yes,Hypertension
+1286,Ryan Perez,40,Male,195,54,No,Asthama
+1287,Scott Becker,24,Male,152,57,No,Covid19
+1288,Taylor Lamb,68,Female,158,97,Yes,Hypertension
+1289,Brandon Brown,85,Female,153,106,Yes,Hypertension
+1290,Sarah Adams,6,Female,100,42,No,Covid19
+1291,Sandy Bell,79,Female,198,61,No,Hypertension
+1292,April Anderson,17,Male,119,42,No,Stroke
+1293,Zachary Webb,54,Male,193,107,No,Allergies
+1294,Joseph Dean,60,Male,151,82,No,Diabetes(type 2)
+1295,Connie Golden,23,Male,177,112,No,Colds & Flu
+1296,Brent Mclaughlin,4,Male,128,44,No,Diabetes(type 2)
+1297,Jerry Dominguez,87,Male,183,45,No,Cancer
+1298,Crystal Burton,75,Male,168,99,No,Cancer
+1299,Ronnie Butler,85,Female,153,43,Yes,Colds & Flu
+1300,Jesse Cherry,37,Female,169,112,Yes,Colds & Flu
+1301,Gary Smith,39,Female,184,109,No,Depression
+1302,Stephen Vega,70,Female,162,51,Yes,Hypertension
+1303,Christopher Mullen,75,Male,179,56,No,Acne
+1304,Richard Forbes,9,Male,112,39,No,Allergies
+1305,Duane Noble,49,Female,157,75,No,Hypertension
+1306,Jeffrey Lopez,77,Male,166,40,No,Colds & Flu
+1307,Helen Jacobs,24,Male,169,46,No,Colds & Flu
+1308,Traci Dominguez,48,Male,178,119,No,Allergies
+1309,Janice Sampson,65,Female,183,96,No,Depression
+1310,Cheyenne Ford,5,Male,143,32,No,Hypertension
+1311,Kelly Forbes,78,Female,185,92,Yes,Diabetes(type 1)
+1312,Rick Lynn,18,Male,157,98,No,Hayfever
+1313,Joshua Lin,36,Male,176,92,No,Diabetes(type 2)
+1314,Michelle Adams,74,Female,156,47,Yes,Hypertension
+1315,Danielle Hurst,36,Male,164,87,No,Diabetes(type 1)
+1316,Taylor Small,86,Male,192,52,No,Cancer
+1317,Brad Long,4,Female,111,34,Yes,Asthama
+1318,Maria Lewis,59,Female,158,43,No,Cancer
+1319,Scott Figueroa,8,Male,138,43,No,Hayfever
+1320,Mark Clay,64,Male,199,111,No,Covid19
+1321,William Lopez,35,Female,191,101,No,Stroke
+1322,Teresa Koch,5,Male,119,37,No,Acne
+1323,Tiffany Smith,57,Male,185,78,No,Allergies
+1324,Sandra Bautista DVM,71,Male,180,83,No,Allergies
+1325,Michael Melton,30,Female,168,80,Yes,Hypertension
+1326,Gabriela Williams,37,Female,179,62,Yes,Asthama
+1327,David Branch,84,Female,158,58,Yes,Depression
+1328,Linda Webb,15,Female,112,50,No,Acne
+1329,Tracy Williams,14,Male,149,48,No,Covid19
+1330,Julian Bell,52,Male,177,115,No,Covid19
+1331,Kelly Terrell,43,Male,159,73,No,Diabetes(type 1)
+1332,Dr. Kathryn Price DVM,42,Male,160,78,No,Asthama
+1333,Rhonda Flores,24,Female,197,70,Yes,Diabetes(type 2)
+1334,Walter Rivera,86,Female,183,61,Yes,Depression
+1335,Laura Castillo,9,Female,145,35,No,Diabetes(type 1)
+1336,Christopher Santiago,43,Female,159,52,Yes,Asthama
+1337,Ann Durham,6,Female,110,49,Yes,Hayfever
+1338,Kelly Howe,55,Female,192,90,Yes,Colds & Flu
+1339,Mr. Philip Nash,40,Male,179,90,No,Depression
+1340,Sarah Roberts,80,Male,167,112,No,Stroke
+1341,Michelle Scott,63,Female,189,95,No,Covid19
+1342,Michelle Jackson,24,Female,175,66,No,Allergies
+1343,Karen Wilson,30,Female,176,73,No,Hypertension
+1344,Whitney Carlson,59,Male,180,67,No,Allergies
+1345,Eric Dorsey,52,Female,191,76,Yes,Asthama
+1346,Lance Saunders,70,Female,158,84,Yes,Diabetes(type 1)
+1347,Ashley Carey,89,Female,160,70,Yes,Diabetes(type 2)
+1348,Isaac Lewis,86,Male,189,86,No,Hayfever
+1349,Theresa Flores,24,Female,161,57,Yes,Asthama
+1350,James Paul,37,Male,197,108,No,Diabetes(type 2)
+1351,Kathleen Barker,27,Female,183,81,No,Depression
+1352,Madison Hill,20,Male,162,78,No,Allergies
+1353,Kyle Walsh,31,Male,192,101,No,Colds & Flu
+1354,Alexis Phillips,41,Male,167,77,No,Diabetes(type 1)
+1355,Haley Saunders,11,Male,146,44,No,Acne
+1356,Dawn Burnett,37,Female,195,78,Yes,Diabetes(type 1)
+1357,Gilbert Vaughn,46,Female,192,45,No,Allergies
+1358,Mrs. Theresa Johnson,23,Male,180,42,No,Depression
+1359,Stacy Lyons,76,Male,183,99,No,Acne
+1360,Kevin Scott,62,Female,172,86,No,Asthama
+1361,Melissa Gonzalez,31,Male,175,98,No,Covid19
+1362,Brian Phillips,32,Male,193,66,No,Hayfever
+1363,Christina Hayden,44,Male,160,77,No,Depression
+1364,Phillip Anderson,35,Female,181,73,No,Asthama
+1365,Jacob Oliver,52,Female,191,82,Yes,Colds & Flu
+1366,Christina Robbins,7,Male,143,44,No,Depression
+1367,Amber Lee,40,Male,181,81,No,Allergies
+1368,Emma Morales,63,Male,175,81,No,Depression
+1369,Jose Murphy,69,Male,164,115,No,Depression
+1370,Sarah Davenport,10,Female,146,48,No,Cancer
+1371,Jennifer Gibson,17,Female,146,36,No,Covid19
+1372,Elizabeth Hernandez,50,Male,184,74,No,Colds & Flu
+1373,Melissa Sandoval,41,Male,177,60,No,Colds & Flu
+1374,Frances Stewart,76,Male,163,54,No,Diabetes(type 1)
+1375,Sandra Martinez,21,Male,191,90,No,Depression
+1376,Terry Lopez,19,Female,150,107,Yes,Allergies
+1377,David Turner,57,Male,169,101,No,Stroke
+1378,Troy Hall,53,Male,186,107,No,Allergies
+1379,Carolyn Nelson,86,Male,188,70,No,Depression
+1380,Melissa Khan,14,Male,130,33,No,Depression
+1381,Anthony Barber,9,Female,139,47,Yes,Hayfever
+1382,Abigail Baker,75,Male,159,45,No,Hypertension
+1383,Sharon Davis,73,Female,179,40,No,Covid19
+1384,Debbie Brooks,16,Female,123,34,Yes,Depression
+1385,Susan Chambers,41,Male,164,78,No,Covid19
+1386,Jennifer Bennett,74,Male,199,55,No,Stroke
+1387,Meagan Hancock,62,Male,174,56,No,Diabetes(type 1)
+1388,Katelyn Collins,17,Female,106,32,No,Depression
+1389,Benjamin Williams,33,Male,152,91,No,Hypertension
+1390,Cindy Grant,10,Male,114,41,No,Acne
+1391,Annette Barr,23,Male,152,103,No,Cancer
+1392,James Gonzalez,5,Female,125,32,Yes,Depression
+1393,Cynthia Zuniga,40,Male,152,42,No,Depression
+1394,Alexis Mccoy,20,Female,190,93,Yes,Hayfever
+1395,Ronnie Robertson,28,Male,180,70,No,Hypertension
+1396,Ruth Myers,24,Female,189,84,No,Diabetes(type 1)
+1397,Michael Case,11,Male,114,45,No,Asthama
+1398,Samuel Carrillo,82,Male,176,110,No,Cancer
+1399,Brittany Wright,64,Female,160,113,No,Cancer
+1400,Vickie Morrison,57,Female,196,77,No,Depression
+1401,Savannah Goodwin,85,Female,159,55,Yes,Diabetes(type 1)
+1402,Angela Duffy,86,Female,155,82,No,Hayfever
+1403,Samantha Thornton,6,Male,142,30,No,Asthama
+1404,Joshua Stark,63,Female,166,116,Yes,Hayfever
+1405,Chad Lopez,69,Male,197,100,No,Allergies
+1406,Robin Foster,50,Female,192,99,No,Stroke
+1407,Steven Santos,8,Female,113,32,Yes,Diabetes(type 2)
+1408,James Lawson,32,Female,157,85,Yes,Diabetes(type 1)
+1409,Scott Decker,50,Female,161,46,No,Cancer
+1410,David Carrillo,22,Male,195,54,No,Allergies
+1411,Phillip Warren,21,Female,187,96,Yes,Allergies
+1412,James Gonzalez,58,Female,170,64,No,Covid19
+1413,Chad Barrett,36,Male,187,113,No,Diabetes(type 1)
+1414,Steven Johnson,48,Male,151,83,No,Asthama
+1415,Jonathan Davis,88,Female,160,80,No,Hypertension
+1416,Hunter Li,23,Male,194,68,No,Hayfever
+1417,Danielle Gill,6,Female,119,49,Yes,Cancer
+1418,Brenda Barron,5,Male,145,30,No,Diabetes(type 2)
+1419,Carlos Brown,65,Female,150,51,Yes,Stroke
+1420,Larry Adams,62,Male,197,113,No,Diabetes(type 1)
+1421,Mrs. Lauren Brown,5,Male,127,39,No,Cancer
+1422,Barbara Nichols,76,Male,159,85,No,Diabetes(type 2)
+1423,Kyle Wood,29,Female,165,45,No,Colds & Flu
+1424,Elizabeth Herman,53,Female,178,113,No,Covid19
+1425,Audrey Newman,79,Male,153,110,No,Hayfever
+1426,Robert Johnson,70,Female,191,108,Yes,Acne
+1427,Jessica Frost,86,Male,175,79,No,Cancer
+1428,Scott Hughes,61,Female,188,114,Yes,Cancer
+1429,Jeremy Montes,52,Female,184,90,Yes,Diabetes(type 1)
+1430,Valerie Blair,20,Female,190,76,No,Asthama
+1431,Sharon Sparks,46,Female,198,85,No,Cancer
+1432,Henry Jackson,13,Male,102,31,No,Diabetes(type 2)
+1433,Mark Bryant,46,Female,193,60,Yes,Depression
+1434,Barbara Guzman,32,Male,198,109,No,Allergies
+1435,Kenneth Sanchez,57,Male,173,99,No,Colds & Flu
+1436,Andrew Neal,65,Female,187,53,Yes,Asthama
+1437,Amber Blackwell,71,Male,184,46,No,Diabetes(type 2)
+1438,Sara Johnson,59,Male,182,75,No,Diabetes(type 1)
+1439,Andre Johnson,89,Male,190,87,No,Covid19
+1440,Andrea Fernandez,61,Male,164,55,No,Acne
+1441,David Christensen,60,Male,183,86,No,Allergies
+1442,Cory Reyes,61,Female,176,116,Yes,Diabetes(type 2)
+1443,Linda Harper,81,Male,171,107,No,Hayfever
+1444,Elizabeth Roberts,43,Female,192,86,No,Acne
+1445,Ronald Gonzales,72,Male,176,86,No,Depression
+1446,Amanda Bauer,63,Male,159,114,No,Cancer
+1447,John Trujillo,41,Female,177,84,Yes,Stroke
+1448,Michael Campbell,8,Female,110,48,Yes,Hayfever
+1449,William Walker,5,Male,115,45,No,Covid19
+1450,Lynn Singh,38,Female,185,82,Yes,Allergies
+1451,Evelyn Jones,89,Male,172,42,No,Acne
+1452,Dr. Leah Bennett PhD,50,Female,177,49,No,Covid19
+1453,Timothy Goodwin,22,Female,153,71,No,Covid19
+1454,Courtney Greene,46,Female,171,116,Yes,Asthama
+1455,Brian Summers,47,Male,156,41,No,Diabetes(type 2)
+1456,Trevor White,89,Female,184,66,Yes,Depression
+1457,Carrie Olson,69,Male,190,55,No,Acne
+1458,Gerald Simon,63,Male,155,85,No,Hypertension
+1459,Danielle Armstrong,88,Male,150,76,No,Stroke
+1460,Samantha Chang,43,Female,185,73,No,Asthama
+1461,Richard Jenkins,69,Male,169,76,No,Diabetes(type 2)
+1462,Barbara Johnson,33,Female,152,67,No,Allergies
+1463,Sarah Mcneil,68,Female,174,92,No,Asthama
+1464,Edward Lopez,36,Female,151,104,No,Diabetes(type 2)
+1465,Jacqueline Holmes,41,Male,193,101,No,Cancer
+1466,Terry Boyd,32,Male,151,82,No,Hypertension
+1467,Jeremiah Lopez,70,Female,174,41,Yes,Acne
+1468,Mr. Phillip Roach Jr.,34,Female,189,52,No,Diabetes(type 1)
+1469,Joshua Miller Jr.,37,Female,155,50,No,Covid19
+1470,Mary Drake DDS,56,Female,155,85,Yes,Stroke
+1471,Caroline Hardin,87,Female,180,40,No,Colds & Flu
+1472,Brian Humphrey,10,Female,110,32,Yes,Allergies
+1473,Jason Miller,63,Male,150,92,No,Depression
+1474,Felicia Allen,73,Male,157,100,No,Stroke
+1475,Rachel Brown,67,Female,172,91,No,Diabetes(type 2)
+1476,Jennifer Soto,12,Female,150,48,No,Cancer
+1477,Ashley Beck,24,Male,199,75,No,Stroke
+1478,Kathryn Brown,50,Female,160,53,No,Depression
+1479,Paul Atkins,77,Female,187,56,Yes,Depression
+1480,Lisa Rodriguez,89,Male,159,78,No,Diabetes(type 1)
+1481,Megan Lewis,6,Female,105,49,Yes,Covid19
+1482,Michael Garcia,14,Female,112,32,Yes,Asthama
+1483,Robert Ramos,20,Male,179,42,No,Stroke
+1484,Blake Marshall,76,Female,175,117,Yes,Stroke
+1485,Kristen Ayers,83,Male,197,105,No,Diabetes(type 2)
+1486,Ronald Thompson,77,Male,176,105,No,Stroke
+1487,Kevin Gray,50,Male,188,104,No,Stroke
+1488,Karen Sims,30,Male,173,98,No,Depression
+1489,Nicholas Weiss,33,Male,197,84,No,Diabetes(type 2)
+1490,Timothy Hernandez PhD,88,Male,153,111,No,Hayfever
+1491,Jennifer Simmons,58,Male,160,67,No,Diabetes(type 2)
+1492,David Douglas,90,Male,174,112,No,Diabetes(type 1)
+1493,Melissa Turner,65,Male,178,44,No,Hayfever
+1494,Jodi Phillips,52,Female,200,41,No,Colds & Flu
+1495,Krista Reynolds,88,Male,178,59,No,Cancer
+1496,Leslie Barton,56,Female,155,61,No,Stroke
+1497,Michael Gillespie,61,Female,183,119,No,Allergies
+1498,Kyle Pollard,69,Female,167,94,Yes,Hypertension
+1499,Mr. Eric Walls Jr.,44,Male,151,112,No,Stroke
+1500,Lori Cowan,64,Male,188,111,No,Depression
+1501,Mathew Griffin,83,Female,179,76,Yes,Diabetes(type 2)
+1502,William Miller,75,Female,184,66,No,Covid19
+1503,Ryan Avery,64,Female,157,100,Yes,Acne
+1504,Jeffrey Harris,56,Female,199,92,Yes,Cancer
+1505,Pamela Norris,14,Male,142,35,No,Diabetes(type 1)
+1506,Elizabeth Harrison,90,Female,165,41,No,Depression
+1507,Lori Christensen,29,Male,199,115,No,Depression
+1508,Jodi Fleming,57,Female,180,42,Yes,Colds & Flu
+1509,George Weber,28,Female,168,114,No,Hypertension
+1510,Anthony Reynolds,57,Female,167,110,No,Covid19
+1511,Erin Santiago,41,Female,155,71,Yes,Asthama
+1512,Mario Johnson,70,Female,180,62,Yes,Diabetes(type 2)
+1513,Jose Boyer,43,Female,163,69,No,Cancer
+1514,Carrie Johnson,45,Male,158,65,No,Colds & Flu
+1515,Charles Ramirez,56,Male,167,40,No,Stroke
+1516,Matthew Morales,28,Female,172,55,Yes,Hayfever
+1517,Jordan Hall,28,Male,154,82,No,Cancer
+1518,Melanie Martin,15,Male,103,50,No,Diabetes(type 1)
+1519,Tina Clark,16,Male,106,45,No,Hayfever
+1520,Jeffrey Harris,85,Male,182,43,No,Diabetes(type 2)
+1521,Meghan Giles,23,Female,167,98,No,Diabetes(type 1)
+1522,Barbara Goodman,57,Male,150,99,No,Colds & Flu
+1523,Leon Fuller,81,Male,186,44,No,Colds & Flu
+1524,Jane Golden,67,Female,164,102,Yes,Asthama
+1525,Paul Miller,9,Male,123,42,No,Allergies
+1526,Thomas Burnett,36,Female,183,58,No,Depression
+1527,Mr. Jonathan Crawford,67,Male,172,75,No,Hayfever
+1528,Gerald Shannon,69,Male,162,61,No,Acne
+1529,Michelle Jones,56,Male,170,101,No,Allergies
+1530,Alex Page,86,Female,180,51,Yes,Covid19
+1531,Theresa Harrison,63,Female,179,118,No,Diabetes(type 1)
+1532,Christopher Garcia,90,Female,162,58,No,Diabetes(type 1)
+1533,Lindsay Adams,82,Male,182,114,No,Depression
+1534,Gary Cox,11,Male,132,43,No,Covid19
+1535,Terri Smith,83,Female,176,112,Yes,Diabetes(type 1)
+1536,Trevor Miller DVM,19,Female,154,109,Yes,Diabetes(type 2)
+1537,Daniel Huffman,82,Female,193,68,No,Hypertension
+1538,Joann Mendoza,11,Male,102,44,No,Stroke
+1539,Bridget Williams,19,Male,156,106,No,Depression
+1540,Austin Meadows,27,Female,185,111,No,Hypertension
+1541,Mary Johnson,84,Male,150,53,No,Diabetes(type 2)
+1542,Julie Mack,87,Female,165,100,Yes,Asthama
+1543,Joshua Foster,83,Female,161,84,Yes,Stroke
+1544,Jessica Rogers,76,Male,176,53,No,Acne
+1545,Melanie Andersen,30,Female,192,74,No,Asthama
+1546,Karen Fry,67,Female,152,54,Yes,Depression
+1547,David Riley,28,Male,168,65,No,Cancer
+1548,Shaun Hull,58,Male,195,57,No,Hayfever
+1549,Adam Johnson,6,Male,105,37,No,Diabetes(type 1)
+1550,Michaela Burns,47,Female,158,86,No,Allergies
+1551,Vincent Ramirez,32,Male,200,51,No,Covid19
+1552,Jeremy Alvarado,18,Female,192,56,No,Diabetes(type 2)
+1553,Kristie Taylor,42,Female,161,92,Yes,Colds & Flu
+1554,Scott Johnson,22,Male,181,69,No,Allergies
+1555,Kenneth Kelley,4,Male,116,34,No,Hayfever
+1556,Ashley Tapia,79,Female,163,67,Yes,Stroke
+1557,Tammy Barnes,31,Male,192,98,No,Acne
+1558,Joseph Tran,79,Female,161,46,Yes,Hayfever
+1559,Michael Reyes,69,Male,197,113,No,Hypertension
+1560,Eric Turner,57,Female,186,71,Yes,Colds & Flu
+1561,Keith Bolton,4,Female,117,46,Yes,Allergies
+1562,Caleb Wright,56,Male,163,67,No,Diabetes(type 1)
+1563,Jennifer Camacho,29,Male,189,94,No,Diabetes(type 1)
+1564,Samantha Turner,5,Female,112,37,Yes,Diabetes(type 2)
+1565,Thomas Franklin,66,Male,169,65,No,Cancer
+1566,Ryan Garcia,66,Male,194,66,No,Diabetes(type 1)
+1567,Michael Anderson,32,Female,195,67,Yes,Covid19
+1568,Diana May,55,Female,176,74,Yes,Hayfever
+1569,Julie Walker,13,Female,121,44,Yes,Asthama
+1570,Emily Davis,43,Female,184,60,No,Asthama
+1571,Randall Adams,26,Male,164,91,No,Hypertension
+1572,Cynthia Evans,74,Male,171,75,No,Diabetes(type 1)
+1573,Jake Barrett,24,Female,181,78,Yes,Allergies
+1574,Jessica Thomas,50,Female,159,104,Yes,Cancer
+1575,Valerie Shepherd,77,Female,153,102,No,Cancer
+1576,Steven Wallace,20,Male,172,110,No,Hayfever
+1577,Kathleen Jackson,37,Female,194,69,Yes,Stroke
+1578,Michaela Bennett,89,Male,150,42,No,Asthama
+1579,Todd Garcia,77,Female,185,68,Yes,Allergies
+1580,Calvin Miles,34,Female,155,54,Yes,Stroke
+1581,Mrs. Katherine Atkinson,69,Male,164,109,No,Diabetes(type 2)
+1582,Melanie Lewis,29,Male,174,110,No,Allergies
+1583,Gene Black,23,Female,200,54,No,Covid19
+1584,Trevor Newman,57,Male,167,76,No,Covid19
+1585,Erika Boyd,27,Female,183,50,Yes,Cancer
+1586,Lisa Zuniga,49,Male,175,82,No,Allergies
+1587,Dr. Nancy Collins,41,Female,198,58,No,Hayfever
+1588,Bridget Clayton,64,Female,155,42,No,Hayfever
+1589,Jessica Lucas,79,Female,151,51,Yes,Depression
+1590,William Boyd,46,Female,183,92,No,Colds & Flu
+1591,Nicole Smith,21,Male,172,119,No,Depression
+1592,Jason Valdez,57,Male,150,48,No,Colds & Flu
+1593,Dean Elliott,10,Female,113,41,No,Colds & Flu
+1594,Yolanda Fletcher,72,Male,185,49,No,Colds & Flu
+1595,Kenneth Mckinney,15,Male,138,31,No,Hypertension
+1596,Frederick Stanley,37,Female,199,101,No,Cancer
+1597,Shelby Sullivan,15,Female,136,42,Yes,Diabetes(type 1)
+1598,Rebecca Best,15,Male,133,43,No,Colds & Flu
+1599,David Davis,22,Female,191,116,Yes,Asthama
+1600,Yvonne Quinn,82,Female,150,95,Yes,Stroke
+1601,Kyle Wilcox,66,Female,161,47,No,Diabetes(type 2)
+1602,Jason Moran,59,Male,188,64,No,Asthama
+1603,Julia Miller,29,Male,192,102,No,Cancer
+1604,James Webb,61,Female,165,106,Yes,Diabetes(type 2)
+1605,Stacy Franklin,84,Male,187,71,No,Cancer
+1606,Angela Abbott,38,Male,174,106,No,Acne
+1607,Patrick Kelly,83,Female,166,59,Yes,Hypertension
+1608,Laura Ross,77,Female,186,102,Yes,Hayfever
+1609,Jessica Byrd,82,Male,174,42,No,Stroke
+1610,Randall Griffin,45,Female,153,107,Yes,Cancer
+1611,Carl Simpson,37,Male,199,101,No,Covid19
+1612,Nathan Silva,47,Female,174,108,No,Acne
+1613,Thomas Ayers,59,Female,158,96,Yes,Depression
+1614,Richard Wagner,84,Male,167,110,No,Cancer
+1615,Malik Harris,17,Female,101,30,No,Covid19
+1616,Anthony Kramer,77,Female,176,94,Yes,Cancer
+1617,Sean Diaz,35,Male,182,118,No,Allergies
+1618,Fred Cain,31,Male,174,82,No,Acne
+1619,Joyce Mcdonald,59,Female,176,80,Yes,Hypertension
+1620,Gerald Garcia,67,Female,171,47,Yes,Allergies
+1621,Shawn Bryan,51,Female,180,41,Yes,Asthama
+1622,John Summers,71,Male,169,44,No,Asthama
+1623,Kelsey Williams,12,Male,136,31,No,Covid19
+1624,Ryan Cook,88,Female,152,102,No,Covid19
+1625,Eric Kelley,62,Female,177,48,Yes,Acne
+1626,Kathy Benson,58,Male,167,70,No,Colds & Flu
+1627,Karen Price,16,Female,132,46,No,Colds & Flu
+1628,Jacob Lopez,79,Male,181,63,No,Stroke
+1629,Anne Ramirez,51,Male,154,90,No,Hypertension
+1630,Michelle Todd,39,Female,160,79,Yes,Hayfever
+1631,Stephanie Smith,51,Female,180,54,No,Cancer
+1632,Johnny Oneill,37,Male,190,69,No,Depression
+1633,Deborah Strickland,6,Female,106,45,No,Colds & Flu
+1634,Kristi Stark,78,Male,190,110,No,Diabetes(type 1)
+1635,Michael Green,85,Male,200,59,No,Allergies
+1636,James Booker,8,Female,137,47,No,Diabetes(type 2)
+1637,Jacqueline Roberts,87,Female,167,103,Yes,Stroke
+1638,Kelly Fleming,78,Male,153,99,No,Diabetes(type 1)
+1639,Brandon Thompson,13,Female,128,33,Yes,Asthama
+1640,Anthony Delgado,32,Male,165,84,No,Diabetes(type 2)
+1641,Zachary Williams,36,Female,176,117,No,Acne
+1642,Jenna Ball,57,Male,193,117,No,Covid19
+1643,Meghan Morton,26,Female,188,110,Yes,Acne
+1644,Todd Howard,57,Female,158,77,No,Allergies
+1645,Olivia Ramsey,14,Male,101,39,No,Hayfever
+1646,Kylie Salazar,75,Male,179,74,No,Colds & Flu
+1647,Dale Davis,67,Male,168,68,No,Covid19
+1648,Evelyn Fritz,25,Female,187,70,Yes,Hayfever
+1649,Joe Mccullough,87,Male,187,105,No,Cancer
+1650,Michelle Ortiz,66,Female,155,118,Yes,Acne
+1651,Laura Butler,28,Female,179,103,Yes,Allergies
+1652,Jacob Rosales,74,Male,195,42,No,Allergies
+1653,Joseph Simpson,46,Female,157,94,No,Colds & Flu
+1654,Rachel Rangel,4,Male,148,45,No,Stroke
+1655,Christian Boyer,18,Male,181,67,No,Hayfever
+1656,Kyle Wilson,32,Female,158,51,No,Colds & Flu
+1657,Walter Kerr,67,Female,165,109,No,Stroke
+1658,Timothy Costa,83,Male,195,70,No,Hayfever
+1659,Jennifer Fields,43,Female,184,80,Yes,Acne
+1660,Shirley Jones,66,Female,170,86,No,Allergies
+1661,Caitlin Noble,70,Female,196,61,No,Diabetes(type 1)
+1662,Charles Sanchez,83,Female,162,105,Yes,Hypertension
+1663,Anthony Turner,30,Female,195,118,Yes,Cancer
+1664,Jodi Harris,50,Female,169,65,Yes,Hypertension
+1665,Karen Edwards,14,Male,108,33,No,Allergies
+1666,Claire Ramsey,44,Female,180,89,Yes,Allergies
+1667,Steven Carroll,28,Female,179,53,Yes,Acne
+1668,Amber Miller,79,Male,192,100,No,Covid19
+1669,Chelsea Holmes,5,Female,127,30,Yes,Cancer
+1670,Joshua Kemp,36,Female,150,59,Yes,Depression
+1671,Sandra Fuller,33,Male,151,51,No,Asthama
+1672,Laura Frost,38,Female,150,65,No,Allergies
+1673,David Bailey,88,Female,188,107,No,Cancer
+1674,Heather Herrera,85,Female,196,73,Yes,Covid19
+1675,Pamela Haley,31,Male,168,115,No,Covid19
+1676,Crystal Osborne,24,Female,153,117,Yes,Asthama
+1677,Curtis Howell,32,Female,155,74,Yes,Asthama
+1678,Lindsay Lane,42,Male,180,106,No,Acne
+1679,Robin Salazar,72,Male,173,71,No,Cancer
+1680,Jonathan Williams,60,Female,159,69,Yes,Diabetes(type 2)
+1681,Mary Taylor,61,Female,164,45,Yes,Stroke
+1682,Robert Ruiz,31,Male,170,59,No,Depression
+1683,Dr. Adrienne Jones,82,Female,200,111,No,Diabetes(type 2)
+1684,Sean Smith,48,Male,194,49,No,Diabetes(type 1)
+1685,Morgan Oliver,74,Male,188,58,No,Diabetes(type 1)
+1686,Cynthia Stevens,84,Male,153,99,No,Covid19
+1687,Michelle Dunn,4,Male,114,40,No,Colds & Flu
+1688,Sheri Gomez,77,Female,173,116,Yes,Covid19
+1689,Kimberly Swanson,43,Female,157,102,Yes,Allergies
+1690,Ashley Jones,77,Female,151,58,Yes,Allergies
+1691,Christian Mcclain,8,Female,112,37,Yes,Acne
+1692,Amanda Vega,40,Female,159,105,No,Diabetes(type 2)
+1693,Stephanie Lester,72,Female,177,100,Yes,Allergies
+1694,Jennifer Ford,52,Female,179,93,No,Diabetes(type 1)
+1695,Curtis Carr,25,Female,188,54,No,Hypertension
+1696,Jennifer Harvey,40,Female,159,49,No,Depression
+1697,Alan Beard,17,Female,127,37,Yes,Colds & Flu
+1698,Tina Hernandez,32,Male,164,103,No,Hayfever
+1699,Maria Shaw,57,Male,197,48,No,Diabetes(type 2)
+1700,Maria Guzman,68,Male,169,112,No,Colds & Flu
+1701,Scott Bush,48,Male,151,102,No,Diabetes(type 2)
+1702,Diana Molina,42,Female,170,101,Yes,Diabetes(type 2)
+1703,William Horne,28,Female,195,101,Yes,Colds & Flu
+1704,Jonathan Jacobs,58,Female,169,116,No,Diabetes(type 2)
+1705,Misty Little,13,Male,116,39,No,Allergies
+1706,Victoria Turner,22,Female,188,78,Yes,Colds & Flu
+1707,Lindsey Phillips,20,Female,187,83,Yes,Diabetes(type 1)
+1708,Jonathan Sanchez,60,Male,170,69,No,Cancer
+1709,Jordan Ramos,82,Male,184,116,No,Hypertension
+1710,Christopher Kim,14,Female,131,49,Yes,Diabetes(type 2)
+1711,Scott Anderson,77,Female,189,80,Yes,Depression
+1712,Rebecca Nixon,15,Female,101,43,No,Diabetes(type 2)
+1713,Michael Chavez,64,Female,190,49,Yes,Covid19
+1714,Courtney Flores,14,Female,145,48,Yes,Diabetes(type 2)
+1715,Dr. Katherine Montgomery,77,Female,164,43,Yes,Colds & Flu
+1716,Beverly Douglas,55,Female,178,54,No,Cancer
+1717,Daniel Pierce,85,Female,174,113,Yes,Stroke
+1718,Christopher Park DVM,63,Female,151,99,Yes,Colds & Flu
+1719,Courtney Patton,11,Female,123,50,Yes,Diabetes(type 2)
+1720,Chris Lee,29,Male,161,106,No,Stroke
+1721,Allen Clark,7,Male,134,42,No,Cancer
+1722,Courtney Black,61,Male,198,92,No,Hayfever
+1723,Gary Wallace,84,Female,185,64,No,Diabetes(type 2)
+1724,Laura Reid,41,Male,187,111,No,Depression
+1725,Jill Koch,21,Female,186,61,No,Cancer
+1726,Amy Bates,12,Male,111,43,No,Cancer
+1727,Tyrone Powell,73,Female,170,81,Yes,Hayfever
+1728,Mark Barnett,38,Male,178,73,No,Diabetes(type 2)
+1729,Suzanne Blackwell,78,Male,168,67,No,Allergies
+1730,Derek English,67,Female,160,87,Yes,Stroke
+1731,Rebecca Thomas,69,Male,162,50,No,Covid19
+1732,Jennifer Woodard,11,Male,112,35,No,Asthama
+1733,Paul Lara,54,Male,152,82,No,Allergies
+1734,Natalie Beck,26,Male,173,92,No,Hypertension
+1735,Bryan Hernandez,68,Female,187,102,Yes,Covid19
+1736,Tammy Martin,69,Male,187,91,No,Allergies
+1737,Stephanie Stone,55,Female,154,48,Yes,Asthama
+1738,Heather Wilson,70,Female,185,56,No,Allergies
+1739,Crystal Park,67,Male,183,96,No,Hypertension
+1740,Kathleen Lozano,20,Male,151,118,No,Depression
+1741,Laura Sandoval,74,Male,162,64,No,Diabetes(type 1)
+1742,Krystal Torres,14,Female,144,38,Yes,Hypertension
+1743,Ronald Greer,33,Male,190,112,No,Diabetes(type 2)
+1744,Douglas Reynolds,35,Female,175,68,Yes,Allergies
+1745,Jamie Dalton,62,Male,197,100,No,Depression
+1746,Tracy Malone,47,Male,166,99,No,Hypertension
+1747,Christina Young,46,Male,166,96,No,Diabetes(type 2)
+1748,Christopher Brown,48,Female,164,54,No,Covid19
+1749,Krystal Brown,90,Female,175,108,No,Diabetes(type 2)
+1750,Destiny Martin,39,Male,187,65,No,Colds & Flu
+1751,Laura Winters,53,Male,194,92,No,Diabetes(type 1)
+1752,Austin Marsh,60,Male,197,119,No,Asthama
+1753,Heather Mitchell,74,Male,192,113,No,Depression
+1754,Joshua Scott,34,Male,151,41,No,Allergies
+1755,Peter Ali,73,Female,165,63,Yes,Hypertension
+1756,Terry Day,77,Female,180,65,No,Cancer
+1757,William Johnson,27,Female,196,40,Yes,Hayfever
+1758,Steven Ballard,17,Female,115,39,No,Asthama
+1759,Christopher Fischer,69,Male,167,84,No,Colds & Flu
+1760,Molly Brown,70,Male,189,79,No,Diabetes(type 2)
+1761,Ian Dixon,15,Male,112,33,No,Covid19
+1762,Eric Miller MD,8,Female,134,39,No,Covid19
+1763,Alexandra Greer,27,Female,186,57,No,Asthama
+1764,Amy Nelson,90,Male,184,111,No,Cancer
+1765,Eric Morgan,83,Male,157,66,No,Hayfever
+1766,James Garcia,65,Female,199,98,Yes,Colds & Flu
+1767,Donna Brooks,47,Female,167,97,No,Covid19
+1768,William Wright,20,Male,177,77,No,Depression
+1769,Brittney Carroll,67,Female,153,70,No,Acne
+1770,Amy Taylor,32,Male,153,43,No,Diabetes(type 1)
+1771,Mark Guerrero,73,Female,188,112,Yes,Hayfever
+1772,Robert Shah,60,Male,196,67,No,Hayfever
+1773,Donna Cooper,73,Male,157,93,No,Diabetes(type 1)
+1774,Cathy Lane,80,Female,193,87,No,Cancer
+1775,Karen Duran,17,Male,109,46,No,Diabetes(type 1)
+1776,Anthony Bowman,44,Male,153,54,No,Cancer
+1777,Dustin Page,22,Female,184,49,Yes,Cancer
+1778,Richard Vega,88,Female,177,115,Yes,Acne
+1779,Daniel Smith,50,Female,165,58,Yes,Stroke
+1780,Teresa Ferguson,28,Female,197,107,No,Colds & Flu
+1781,Diana Bryant,18,Female,188,85,No,Asthama
+1782,Leslie Anderson,64,Female,165,94,Yes,Colds & Flu
+1783,Michelle Burns,58,Male,186,54,No,Colds & Flu
+1784,Christina Randall,21,Male,179,99,No,Hayfever
+1785,Sara Cobb,88,Male,158,105,No,Cancer
+1786,James Smith,85,Male,173,92,No,Allergies
+1787,Brian Proctor,19,Male,156,54,No,Stroke
+1788,Mrs. Veronica Johnson,53,Male,152,119,No,Depression
+1789,Victor Norton,18,Female,160,77,No,Asthama
+1790,Abigail Coleman,50,Female,195,72,Yes,Hayfever
+1791,Brandon Wade,71,Male,181,40,No,Hypertension
+1792,Nicole Coleman,36,Female,161,94,No,Allergies
+1793,Benjamin Garcia,74,Female,156,97,No,Allergies
+1794,Angel Wilson,53,Female,190,75,No,Diabetes(type 1)
+1795,Justin Mills,4,Female,114,31,No,Acne
+1796,Joseph Powell,39,Female,180,66,No,Colds & Flu
+1797,Cory Mitchell,59,Female,180,46,Yes,Cancer
+1798,Joshua Terry,61,Male,185,96,No,Stroke
+1799,Christina Hood,66,Female,189,77,No,Stroke
+1800,Mary Wright,13,Female,122,34,Yes,Allergies
+1801,Susan Fowler,34,Female,199,44,Yes,Acne
+1802,Diana Glover,63,Female,161,89,Yes,Stroke
+1803,Mary Poole,90,Male,197,61,No,Depression
+1804,Mrs. Kimberly Myers,87,Male,155,82,No,Diabetes(type 1)
+1805,Daniel Bauer,35,Male,164,79,No,Hayfever
+1806,Kevin Dean,48,Male,174,98,No,Asthama
+1807,Angela Giles,44,Female,162,94,No,Diabetes(type 1)
+1808,Robert Walker,33,Female,164,87,No,Hayfever
+1809,Gail Santiago,17,Female,134,43,No,Acne
+1810,Stephen Flowers,15,Male,122,31,No,Allergies
+1811,John Jones,77,Male,152,83,No,Colds & Flu
+1812,James Jones,79,Female,158,55,Yes,Allergies
+1813,Kathryn Lewis,87,Female,174,60,Yes,Covid19
+1814,Andrew Baker,69,Female,166,92,No,Hayfever
+1815,Lori Wells,44,Male,198,113,No,Hayfever
+1816,Amy Walsh,80,Male,165,99,No,Covid19
+1817,Rose Malone,73,Female,182,78,No,Allergies
+1818,Melissa Perry,77,Female,195,71,No,Diabetes(type 2)
+1819,Steven Johnson,4,Male,100,41,No,Colds & Flu
+1820,Stephanie Bennett,54,Female,178,107,Yes,Hypertension
+1821,Megan Martinez,58,Male,158,42,No,Allergies
+1822,Anthony Williams,83,Female,156,50,No,Hayfever
+1823,Jessica Murphy,87,Male,151,40,No,Diabetes(type 2)
+1824,Brad Vasquez,79,Female,150,93,No,Asthama
+1825,Michael Watts,50,Female,181,108,No,Hypertension
+1826,Gabriel Wright,22,Male,194,101,No,Asthama
+1827,Mary Sanford,47,Female,162,64,No,Diabetes(type 1)
+1828,Tammy Smith,51,Male,166,77,No,Asthama
+1829,Emily Bailey,82,Male,157,67,No,Cancer
+1830,Maria Scott,8,Male,117,50,No,Depression
+1831,Devin Bailey,14,Male,149,47,No,Asthama
+1832,Chelsea Bauer,11,Female,134,37,Yes,Asthama
+1833,Glen Moore,64,Male,196,116,No,Covid19
+1834,Stephanie Adams,12,Male,138,36,No,Acne
+1835,Matthew Walter,80,Male,178,75,No,Covid19
+1836,Eric Martinez,25,Female,163,119,Yes,Asthama
+1837,Amy Edwards,63,Male,164,87,No,Diabetes(type 2)
+1838,Brandon Thomas,87,Female,167,104,No,Depression
+1839,George Boyd,48,Male,173,59,No,Depression
+1840,Eileen Torres,88,Male,174,106,No,Asthama
+1841,David Walker,14,Male,102,32,No,Hypertension
+1842,Vicki Nguyen,31,Female,154,43,Yes,Hypertension
+1843,Jennifer Foley,40,Male,168,67,No,Cancer
+1844,Alicia Wagner,32,Female,162,71,No,Acne
+1845,Carlos Hopkins,27,Male,200,45,No,Hypertension
+1846,Laurie Williams,21,Female,154,111,Yes,Depression
+1847,Edward Keller,34,Male,171,72,No,Cancer
+1848,Shane Estes,54,Female,170,94,Yes,Covid19
+1849,Jared Sanchez,51,Male,168,91,No,Diabetes(type 2)
+1850,Sarah Wagner,46,Female,175,64,Yes,Allergies
+1851,Catherine Nixon,82,Male,189,82,No,Asthama
+1852,Michael Meyer,41,Male,175,68,No,Acne
+1853,Heather Bailey,29,Male,166,77,No,Covid19
+1854,Emily Dillon,41,Female,174,120,No,Colds & Flu
+1855,Kerri Mcintyre,47,Male,192,100,No,Allergies
+1856,Steven Ray,5,Female,106,33,No,Depression
+1857,Rebecca Jimenez,68,Male,186,70,No,Cancer
+1858,Alicia Wilson,84,Male,156,43,No,Colds & Flu
+1859,Sandra Hamilton,33,Female,186,59,No,Allergies
+1860,April Bennett,21,Male,185,112,No,Depression
+1861,Jennifer Lyons,90,Male,187,64,No,Hayfever
+1862,Michaela Howard,39,Female,158,96,Yes,Allergies
+1863,David Porter,38,Male,164,47,No,Diabetes(type 2)
+1864,Eric Perry,69,Female,173,111,Yes,Stroke
+1865,Karen Simmons,8,Male,100,45,No,Colds & Flu
+1866,Anthony Andrade,77,Male,161,93,No,Hayfever
+1867,Melanie Williams,72,Female,165,64,Yes,Diabetes(type 2)
+1868,Justin Morales,63,Female,186,88,No,Asthama
+1869,Samuel Orr,20,Male,181,44,No,Acne
+1870,Laurie Fuller,43,Female,175,100,No,Hayfever
+1871,Cindy Garrett,85,Female,193,97,No,Cancer
+1872,Robin Snyder,23,Female,156,49,Yes,Allergies
+1873,Jenna Walls,23,Male,200,54,No,Acne
+1874,Jesse Mcfarland,39,Male,174,88,No,Diabetes(type 2)
+1875,Tammy Fernandez,61,Male,171,88,No,Diabetes(type 1)
+1876,Steven Shepherd,63,Male,177,108,No,Cancer
+1877,Scott Norman,36,Male,180,118,No,Asthama
+1878,Danielle Escobar,74,Male,198,41,No,Acne
+1879,Jaime Jones,74,Male,200,81,No,Hypertension
+1880,Jose Farley,39,Female,188,76,No,Hypertension
+1881,Pamela Lopez,19,Male,182,63,No,Colds & Flu
+1882,Elizabeth Williams,56,Male,172,86,No,Diabetes(type 2)
+1883,Morgan Jones,19,Male,169,55,No,Depression
+1884,Brandon Vasquez,24,Male,185,54,No,Diabetes(type 2)
+1885,Donald Miller,15,Male,134,44,No,Acne
+1886,Alyssa Freeman,20,Male,151,66,No,Hypertension
+1887,Whitney Chapman DVM,89,Male,193,62,No,Covid19
+1888,Michael Reynolds,4,Male,110,47,No,Asthama
+1889,Andrea Kramer,39,Male,187,69,No,Asthama
+1890,Jeffrey Hernandez,52,Female,151,118,No,Diabetes(type 2)
+1891,Danielle Joseph,54,Female,179,55,No,Covid19
+1892,Donna Clements,75,Female,191,61,No,Covid19
+1893,Christina Sullivan,61,Male,154,92,No,Diabetes(type 1)
+1894,Katrina Mack,57,Male,152,85,No,Covid19
+1895,Tammie Foster,27,Female,187,86,No,Colds & Flu
+1896,Jill Logan,7,Male,139,35,No,Hypertension
+1897,Patricia Bradley,83,Male,199,106,No,Depression
+1898,Sydney Harvey,64,Female,175,43,Yes,Diabetes(type 2)
+1899,Steven Preston,55,Male,181,82,No,Acne
+1900,Mrs. Pamela Wade,79,Male,171,44,No,Cancer
+1901,Julia Koch,10,Male,110,50,No,Covid19
+1902,Benjamin Fernandez,9,Female,116,37,Yes,Diabetes(type 2)
+1903,Jack Lopez,65,Female,176,96,No,Colds & Flu
+1904,Vanessa Pruitt,63,Female,150,118,No,Cancer
+1905,Mrs. Virginia Mendoza DDS,50,Female,164,77,Yes,Acne
+1906,Matthew Roberts,86,Female,187,106,No,Acne
+1907,David Cross,31,Female,160,117,No,Stroke
+1908,Paul Parker,16,Male,136,41,No,Stroke
+1909,Kelly Torres,24,Female,158,68,No,Asthama
+1910,Danielle Harris,6,Male,129,32,No,Covid19
+1911,Lori Meyer,89,Male,160,72,No,Asthama
+1912,Jonathan Frank,28,Male,158,109,No,Diabetes(type 2)
+1913,Hunter Hall,56,Male,199,45,No,Diabetes(type 1)
+1914,Catherine Pham,48,Female,168,115,No,Asthama
+1915,Frederick Rice,72,Male,198,70,No,Depression
+1916,Jeff Jones,60,Female,153,119,Yes,Cancer
+1917,Susan Allen,80,Female,193,50,Yes,Diabetes(type 1)
+1918,Matthew Jordan,8,Male,112,31,No,Colds & Flu
+1919,Briana Watson,42,Female,168,108,No,Diabetes(type 1)
+1920,Hannah Roberson,42,Female,194,64,No,Hypertension
+1921,Deanna Austin,57,Male,168,49,No,Colds & Flu
+1922,Theresa Bradford,9,Female,129,40,Yes,Cancer
+1923,Christine Barrett,22,Female,150,41,No,Hayfever
+1924,Alicia Morales,85,Female,166,109,Yes,Hypertension
+1925,Jake Lewis,84,Female,156,63,Yes,Acne
+1926,Patricia Rose,82,Female,196,118,Yes,Covid19
+1927,Melissa Barrera,57,Male,163,119,No,Covid19
+1928,Vincent Jackson,67,Female,160,72,No,Hypertension
+1929,Alex Nicholson,32,Male,181,40,No,Stroke
+1930,James White,33,Male,179,108,No,Diabetes(type 1)
+1931,Walter Anderson,29,Male,176,79,No,Acne
+1932,Brandon Diaz,82,Male,184,73,No,Diabetes(type 1)
+1933,David Cuevas,73,Male,159,104,No,Asthama
+1934,Samantha Robertson,86,Female,195,87,Yes,Cancer
+1935,Tyler Berger,42,Male,159,88,No,Allergies
+1936,Sarah Wagner,59,Female,195,76,Yes,Covid19
+1937,Ms. Tasha Robinson,53,Female,182,91,No,Depression
+1938,Melanie Jimenez,20,Male,174,53,No,Acne
+1939,Matthew Hudson,90,Female,200,74,Yes,Allergies
+1940,Linda Garcia MD,25,Male,183,94,No,Allergies
+1941,Mike Pope,26,Male,186,113,No,Hypertension
+1942,Gabrielle Sanders DVM,77,Male,166,91,No,Stroke
+1943,Andrew Taylor,80,Female,152,68,No,Hypertension
+1944,Michelle Oneill,89,Male,172,108,No,Depression
+1945,Robert Gonzalez,41,Female,173,91,No,Allergies
+1946,Stephen Dominguez,60,Male,190,100,No,Diabetes(type 2)
+1947,Caitlin Kim,71,Female,169,50,No,Diabetes(type 1)
+1948,James Willis,27,Male,161,47,No,Acne
+1949,Alexander Smith,86,Female,161,67,Yes,Hayfever
+1950,James Henson,89,Female,185,54,No,Asthama
+1951,Kyle Tyler,30,Male,185,92,No,Depression
+1952,Jesse Fields,49,Female,199,40,No,Covid19
+1953,Kayla Smith,62,Female,193,57,Yes,Allergies
+1954,Amanda Russell,8,Female,103,47,Yes,Hayfever
+1955,Amanda Serrano,82,Male,160,103,No,Colds & Flu
+1956,Jose Kim,51,Female,152,111,Yes,Depression
+1957,Brittany Davis,83,Male,190,102,No,Diabetes(type 1)
+1958,Lauren Allen,25,Male,167,48,No,Diabetes(type 2)
+1959,James Miller,45,Male,164,74,No,Diabetes(type 1)
+1960,Amanda Brown,73,Female,155,50,No,Colds & Flu
+1961,Trevor Marshall,77,Female,162,92,No,Colds & Flu
+1962,Marc James,32,Female,177,111,No,Hypertension
+1963,Chelsea Buckley,28,Female,196,72,No,Cancer
+1964,Melody Davis,20,Female,198,110,Yes,Diabetes(type 1)
+1965,Timothy Shepherd,66,Male,184,62,No,Colds & Flu
+1966,Daniel Gomez,15,Female,128,46,Yes,Diabetes(type 1)
+1967,Nicole Waters,29,Female,170,52,No,Allergies
+1968,Alicia Lee,65,Male,163,111,No,Hayfever
+1969,Kelly Russell,79,Male,184,72,No,Colds & Flu
+1970,Christina Lewis DDS,51,Female,150,111,No,Diabetes(type 2)
+1971,Robert Simmons,66,Female,167,60,Yes,Hypertension
+1972,John Stone,39,Male,154,69,No,Hayfever
+1973,Julie Snyder,26,Male,161,57,No,Allergies
+1974,Laura Berry,22,Female,174,40,Yes,Covid19
+1975,Jamie Harris,53,Female,198,80,Yes,Allergies
+1976,Cristina Schaefer,47,Male,186,41,No,Covid19
+1977,Gary Morrison DDS,37,Male,185,82,No,Colds & Flu
+1978,Alex Murphy,50,Female,179,71,Yes,Covid19
+1979,Erika Clark MD,58,Female,171,107,Yes,Colds & Flu
+1980,Anthony Robinson,42,Male,179,88,No,Acne
+1981,Spencer Norris,14,Female,125,44,Yes,Hayfever
+1982,Brian Houston,73,Female,197,92,Yes,Hayfever
+1983,Emma Thomas,40,Female,160,68,Yes,Stroke
+1984,Rebecca Dunn,63,Male,150,98,No,Covid19
+1985,Andre Evans,6,Female,129,49,Yes,Allergies
+1986,Amanda Scott,63,Female,167,60,No,Covid19
+1987,Nicolas Daniels,62,Female,167,72,No,Diabetes(type 2)
+1988,Nathan Mccall,71,Female,171,62,No,Hypertension
+1989,Paul Harris,88,Male,165,52,No,Asthama
+1990,James Cordova,68,Female,156,104,No,Colds & Flu
+1991,Jesse Richardson,65,Female,155,77,No,Hypertension
+1992,Bradley Simmons,61,Female,172,71,No,Colds & Flu
+1993,Daniel Brown,24,Male,170,88,No,Hypertension
+1994,Ashley Grimes,67,Male,199,115,No,Diabetes(type 1)
+1995,Scott Barrett,33,Female,164,107,Yes,Cancer
+1996,Michael Clark,30,Male,159,44,No,Diabetes(type 1)
+1997,Samantha Palmer,45,Male,160,115,No,Hypertension
+1998,Joseph Mayer,72,Male,171,80,No,Colds & Flu
+1999,Crystal Winters,79,Female,188,55,Yes,Stroke
