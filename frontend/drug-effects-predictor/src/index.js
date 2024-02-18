@@ -20,12 +20,12 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<LandingPage />} /> {/* Home Page */}
-        <Route path="/login" element={<Login />} /> {/* Login Page */}
-        <Route path="/signup" element={<Signup />} /> {/* Signup Page */}
-        <Route path="/home" element={<Home />} /> {/* Home Page */}
-        <Route path="/myprofile" element={<Profile />} /> {/* Profile Page */}
-        <Route path="/dashboard" element={<DashboardPage />} />
+        <Route path="/frontend/drug-effects-predictor/" element={<LandingPage />} /> {/* Home Page */}
+        <Route path="/frontend/drug-effects-predictor/login" element={<Login />} /> {/* Login Page */}
+        <Route path="/frontend/drug-effects-predictor/signup" element={<Signup />} /> {/* Signup Page */}
+        <Route path="/frontend/drug-effects-predictor/home" element={<Home />} /> {/* Home Page */}
+        <Route path="/frontend/drug-effects-predictor/myprofile" element={<Profile />} /> {/* Profile Page */}
+        <Route path="/frontend/drug-effects-predictor/dashboard" element={<DashboardPage />} />
         {/* <Route path="/landingpage" element={<LandingPage />} /> */}
 
         {/* Add more routes as needed */}
