@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col, Form, Button, Card,Navbar, Nav } from 'react-bootstrap';
+import { Container, Form, Button, Navbar, Nav } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 function NavbarCustom() {
     const handleLogout = () => {
@@ -7,7 +7,7 @@ function NavbarCustom() {
         alert('Logging out...');
       };
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
       <LinkContainer to="/home">
             <Navbar.Brand>PharmaCutieCal</Navbar.Brand>
