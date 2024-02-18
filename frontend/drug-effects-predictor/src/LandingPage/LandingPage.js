@@ -49,7 +49,34 @@ function LandingPage() {
                 <Row style={{marginLeft:"14%"}}>
                 <Col md={2} style={{textAlign:"center"}}>
                    
-                <img src={'../landingbackground.png'} style={{ height:"70px",width:"70px",borderRadius:"50%" }}/>
+                <img src={'../anshul.jpeg'} style={{ height:"70px",width:"70px",borderRadius:"50%" }}/>
+                
+                <h5>Anshul<br/> Chaudhary</h5>
+                
+                
+                
+                </Col>
+                <Col md={2} style={{textAlign:"center"}}>
+                   
+                <img src={'../abhishek.png'} style={{ height:"70px",width:"70px",borderRadius:"50%" }}/>
+                
+                <h5>Abhishek<br/> Nair</h5>
+                
+                
+                
+                </Col>
+                <Col md={2} style={{textAlign:"center"}}>
+                   
+                <img src={'../muskan.JPG'} style={{ height:"70px",width:"70px",borderRadius:"50%" }}/>
+                
+                <h5>Muskan<br/> Raisinghani</h5>
+                
+                
+                
+                </Col>
+                <Col md={2} style={{textAlign:"center"}}>
+                   
+                <img src={'../roshan.JPG'} style={{ height:"70px",width:"70px",borderRadius:"50%" }}/>
                 
                 <h5>Roshan<br/> Dadlani</h5>
                 
@@ -58,36 +85,9 @@ function LandingPage() {
                 </Col>
                 <Col md={2} style={{textAlign:"center"}}>
                    
-                <img src={'../landingbackground.png'} style={{ height:"70px",width:"70px",borderRadius:"50%" }}/>
+                <img src={'../tejas.jpeg'} style={{ height:"70px",width:"70px",borderRadius:"50%" }}/>
                 
-                <h5>Roshan<br/> Dadlani</h5>
-                
-                
-                
-                </Col>
-                <Col md={2} style={{textAlign:"center"}}>
-                   
-                <img src={'../landingbackground.png'} style={{ height:"70px",width:"70px",borderRadius:"50%" }}/>
-                
-                <h5>Roshan<br/> Dadlani</h5>
-                
-                
-                
-                </Col>
-                <Col md={2} style={{textAlign:"center"}}>
-                   
-                <img src={'../landingbackground.png'} style={{ height:"70px",width:"70px",borderRadius:"50%" }}/>
-                
-                <h5>Roshan<br/> Dadlani</h5>
-                
-                
-                
-                </Col>
-                <Col md={2} style={{textAlign:"center"}}>
-                   
-                <img src={'../landingbackground.png'} style={{ height:"70px",width:"70px",borderRadius:"50%" }}/>
-                
-                <h5>Roshan<br/> Dadlani</h5>
+                <h5>Tejas<br/> Sridhar</h5>
                 
                 
                 
