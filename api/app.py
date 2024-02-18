@@ -11,7 +11,8 @@ CORS(app)
 # Connect to MongoDB
 client = MongoClient('mongodb://localhost:27017/')
 db = client['mydatabase']  # Change 'mydatabase' to your database name
-collection = db['Drug effects']    
+collection = db['Drug effects']  
+collection1 = db['drug_file']  
 
 @app.route('/signup', methods=['POST'])
 def signup():
@@ -95,6 +96,32 @@ def upload_csv():
         drug_index = (drug_index + 1) % len(drug_data)
 
     return jsonify({'success': 'Data uploaded successfully'})
+
+
+@app.route('/search', methods=['GET'])
+def search():
+    print("inside-----------")
+    term = request.args.get('term')
+    print(term)
+
+    # Perform a MongoDB query to find documents that match the search term
+    results = list(collection1.find({'name': {'$regex': f'^{term}', '$options': 'i'}}))  # Using regex to perform a "startswith" search
+
+    # print(results)
+    # Extract only the 'name' field from the results
+    names = [result['name'] for result in results]
+
+    return jsonify({'results': names})
+
+@app.route('/model', methods=['GET'])
+def search1():
+    print("inside model--------")
+    term = request.args.get('selectedResult')
+    print(term)
+
+    #TODO
+
+    return term
 
 
 if __name__ == '__main__':
