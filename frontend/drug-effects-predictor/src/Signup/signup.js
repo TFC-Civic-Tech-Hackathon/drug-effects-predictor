@@ -2,10 +2,9 @@ import React, { useState } from 'react';
 import { Container, Row, Col, Form, Button, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
-
+import './Signup.css'; // Import your custom CSS file for additional styling
 
 function Signup() {
-
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
@@ -27,45 +26,38 @@ function Signup() {
       });
 
       if (!response.ok) {
-
         throw new Error(`HTTP error! status: ${response.status}`);
       }
 
       const data = await response.json();
 
-
       if (data && data.error) {
-
         alert(data.error);
       } else {
-
         alert(data.message);
         navigate('/login');
-
       }
     } catch (error) {
       console.error('Error:', error);
-      // Display a generic error message
       alert('An error occurred. Please try again later.');
     }
   };
 
-
-
   return (
-    <Container className="d-flex justify-content-center align-items-center" style={{ minHeight: "100vh", minwidth: "70vw" }}>
-      <Row>
-        <Col md={12} className="mx-auto">
-          <Card>
+    <Container className="signup-container">
+      <Row className="justify-content-center align-items-center vh-100">
+        <Col md={6} className="mx-auto">
+          <Card className="signup-card">
             <Card.Body>
-              <h2 className="text-center mb-4">Signup</h2>
-              <Form onSubmit={handleSubmit}>
+              <h2 className="signup-heading">Signup</h2>
+              <Form onSubmit={handleSubmit} className="signup-form">
                 <Form.Group id="email" className="mb-3">
                   <Form.Label>Email</Form.Label>
                   <Form.Control
                     type="email"
-                    value={email} // Bind value to email state variable
-                    onChange={(e) => setEmail(e.target.value)} // Update email state variable
+                    placeholder="Enter email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
                     required
                   />
                 </Form.Group>
@@ -73,8 +65,9 @@ function Signup() {
                   <Form.Label>Password</Form.Label>
                   <Form.Control
                     type="password"
-                    value={password} // Bind value to password state variable
-                    onChange={(e) => setPassword(e.target.value)} // Update password state variable
+                    placeholder="Enter password"
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
                     required
                   />
                 </Form.Group>
@@ -82,20 +75,25 @@ function Signup() {
                   <Form.Label>Confirm Password</Form.Label>
                   <Form.Control
                     type="password"
-                    value={confirmPassword} // Bind value to confirmPassword state variable
-                    onChange={(e) => setConfirmPassword(e.target.value)} // Update confirmPassword state variable
+                    placeholder="Enter confirm password"
+                    value={confirmPassword}
+                    onChange={(e) => setConfirmPassword(e.target.value)}
                     required
                   />
                 </Form.Group>
-                <Button className="w-100" type="submit">Sign Up</Button>
-                <Link className="w-100" to="/login">Log In</Link>
+                <Button className="signup-button" type="submit">
+                  Sign Up
+                </Button>
+                <Link to="/login" className="signup-link">
+                  Log In
+                </Link>
               </Form>
             </Card.Body>
           </Card>
         </Col>
       </Row>
     </Container>
-  )
+  );
 }
 
-export default Signup
+export default Signup;

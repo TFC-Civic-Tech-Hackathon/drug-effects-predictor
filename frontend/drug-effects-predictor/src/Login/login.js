@@ -1,32 +1,39 @@
-import React from 'react'
+import React from 'react';
 import { Container, Row, Col, Form, Button, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import './Login.css'; // Import your custom CSS file for additional styling
 
-function login() {
+function Login() {
   const handleSubmit = (event) => {
     event.preventDefault();
     // Handle the form submission logic here
     alert('Login submitted');
   };
+
   return (
-    <Container className="justify-content-center align-items-center custom-flex-width" style={{ minHeight: "100vh", width:"30vw", marginTop:"10%", marginBottom:"10%" }}>
-      <Row>
-        <Col md={12} className="mx-auto">
-          <Card>
+    <Container className="login-container">
+      <Row className="justify-content-center align-items-center vh-100">
+        <Col md={6}>
+          <Card className="custom-card">
             <Card.Body>
               <h2 className="text-center mb-4">Login</h2>
               <Form onSubmit={handleSubmit}>
-                <Form.Group id="email" className="mb-3">
-                  <Form.Label>Email</Form.Label>
-                  <Form.Control type="email" required />
+                <Form.Group controlId="formBasicEmail" className="mb-3">
+                  <Form.Label>Email address</Form.Label>
+                  <Form.Control type="email" placeholder="Enter email" required />
                 </Form.Group>
-                <Form.Group id="password" className="mb-3">
+
+                <Form.Group controlId="formBasicPassword" className="mb-3">
                   <Form.Label>Password</Form.Label>
-                  <Form.Control type="password" required />
+                  <Form.Control type="password" placeholder="Password" required />
                 </Form.Group>
-                <Button className="w-100 mb-3" type="submit">Log In</Button>
+
+                <Button variant="primary" type="submit" className="w-100 mb-3">
+                  Log In
+                </Button>
+
                 <div className="text-center mb-3">
-                  <span>Don't have an account?  </span>
+                  <span className="mr-2">Don't have an account?    </span>
                   <Link to="/signup">Signup</Link>
                 </div>
               </Form>
@@ -35,7 +42,7 @@ function login() {
         </Col>
       </Row>
     </Container>
-  )
+  );
 }
 
-export default login
+export default Login;
