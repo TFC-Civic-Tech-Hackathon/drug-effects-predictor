@@ -42,6 +42,7 @@ function Login() {
       });
       if (response.ok) {
         const data = await response.json();
+        localStorage.setItem("email",email)
         setsessionVar(true);
         console.log(response)
         navigate('/home');
@@ -53,7 +54,7 @@ function Login() {
     }
   };
 
-if(sessionVar === false){
+// if(localStorage.getItem("email") === null){
   return (
     <div>
         <Navbar bg="dark" variant="dark" expand="lg">
@@ -94,18 +95,7 @@ if(sessionVar === false){
                   <div className="text-center mb-3">
                     <span className="mr-2">Don't have an account?    </span>
                     <Link to="/signup">Signup</Link>
-                  <Button className="w-100 mb-3" type="submit">Log In</Button>
-                  <div className="text-center mb-3">
-                    <span className="mr-2">Don't have an account?    </span>
-                    <Link to="/signup">Signup</Link>
 
-                  </div>
-                </Form>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-      </Container>
                   </div>
                 </Form>
               </Card.Body>
@@ -115,9 +105,9 @@ if(sessionVar === false){
       </Container>
     </div>
   )
-}else{
-  navigate('/home');
-}
+// }else{
+//   navigate('/home');
+// }
 }
 
 export default Login;

@@ -16,17 +16,18 @@ function Profile() {
       // Gather form data
       const formData = {
         
-        // email: event.target.email.value,
+        email: localStorage.getItem("email"),
         fullname: event.target[1].value,
-        age: selectedAgeOption,
+        age: event.target[2].value,
         gender: selectedGenderOption,
         height: event.target[4].value,
         weight: event.target[5].value,
         blood: selectedBloodOption,
         pregnant: selectedPregnantOption,
-        pastComplication: event.target[9].value
+        pastComplication: event.target[9].value,
+        password:"1234"
       };
-    
+      console.log(formData)
       try {
         const response = await fetch('http://localhost:5000/update-profile', {
           method: 'POST',
@@ -74,7 +75,7 @@ function Profile() {
               <Form onSubmit={handleSubmit}>
                 <Form.Group id="email" className="mb-3">
                   <Form.Label>Email</Form.Label>
-                  <Form.Control type="email" required disabled/>
+                  <Form.Control type="email" value={localStorage.getItem("email")} required disabled/>
                 </Form.Group>
                 <Form.Group id="fullname" className="mb-3">
                   <Form.Label>Full Name</Form.Label>
