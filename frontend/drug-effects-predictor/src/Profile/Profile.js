@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import { Container, Row, Col, Form, Button, Card,Navbar, Nav } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import { LinkContainer } from 'react-router-bootstrap';
+import { Container, Row, Col, Form, Button, Card } from 'react-bootstrap';
+// import { Link } from 'react-router-dom';
+// import { LinkContainer } from 'react-router-bootstrap';
 import NavbarCustom from '../Navbar/NavbarCustom'
 function Profile() {
     const [selectedGenderOption, setSelectedGenderOption] = useState('');

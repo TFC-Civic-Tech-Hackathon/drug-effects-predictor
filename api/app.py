@@ -1,30 +1,46 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, session
 from flask_cors import CORS
 from pymongo import MongoClient
 import csv
 import io
 import random
+import string
 
 app = Flask(__name__)
 CORS(app)
+app.secret_key = ''.join(random.choices(string.ascii_letters, k=7))
 
 # Connect to MongoDB
 client = MongoClient('mongodb://localhost:27017/')
 db = client['mydatabase']  # Change 'mydatabase' to your database name
 collection = db['Drug effects']  
 collection1 = db['drug_file']  
+collection2 = db['Patients_record']
+
 
 @app.route('/signup', methods=['POST'])
 def signup():
-    print("inside")
+    print("inside ----")
     print(request)
     data = request.json
     email = data.get('email')
     password = data.get('password')
     # Insert the data into MongoDB
     print(f"{email} {password}")
-    collection.insert_one({'email': email, 'password': password})
+    collection2.insert_one({'email': email, 'password': password})
     return jsonify({'message': 'User signed up successfully'}), 200
+
+@app.route('/login', methods=['POST'])
+def signin():
+    data = request.json
+    email = data.get('email')
+    password = data.get('password')
+    print(email)
+    print("===")
+    print(password)
+    session['email'] = email
+
+    return jsonify({'message':'Login successful'}), 200
 
 # 
 @app.route('/upload', methods=['POST'])
@@ -124,8 +140,8 @@ def search():
 @app.route('/model', methods=['GET'])
 def search1():
     print("inside model--------")
-    term = request.args.get('selectedResult')
-    print(term)
+    searchedDrug = request.args.get('selectedResult')
+    print(searchedDrug)
 
     #TODO
 
