@@ -48,6 +48,11 @@ def upload_csv():
     # Number of patients
     num_patients = len(patient_data)
 
+    # Create Patients_record table and insert patient data
+    patients_collection = db['Patients_record']
+    for patient_row in patient_data:
+        patients_collection.insert_one(patient_row)
+
     # Assign drugs to patients in a circular manner
     drug_index = 0
     for patient_row in patient_data:
