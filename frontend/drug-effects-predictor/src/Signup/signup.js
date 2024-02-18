@@ -13,19 +13,22 @@ function Signup() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+
+    console.log(email);
+    console.log(password);
     if (password !== confirmPassword) {
       alert('Passwords do not match');
       return;
     }
     try {
-      const response = await fetch('http://localhost:5000/signup', {
+      const response = await fetch('http://127.0.0.1:5000/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ email, password }),
+        body: JSON.stringify({ email:email, password:password }),
       });
-
+      console.log(response)
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
@@ -46,7 +49,7 @@ function Signup() {
 
   return (
     <div>
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
       <LinkContainer to="/">
             <Navbar.Brand>PharmaCutieCal</Navbar.Brand>
