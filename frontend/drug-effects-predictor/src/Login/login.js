@@ -1,13 +1,18 @@
 import React from 'react';
 import { Container, Row, Col, Form, Button, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import './Login.css'; // Import your custom CSS file for additional styling
 
 function Login() {
+  const navigate = useNavigate();
   const handleSubmit = (event) => {
     event.preventDefault();
+    
     // Handle the form submission logic here
     alert('Login submitted');
+
+    navigate('/home');
   };
 
   return (
