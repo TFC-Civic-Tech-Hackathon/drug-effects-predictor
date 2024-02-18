@@ -3,6 +3,7 @@ from flask_cors import CORS
 from pymongo import MongoClient
 import csv
 import io
+import random
 
 app = Flask(__name__)
 CORS(app)
@@ -41,22 +42,40 @@ def upload_csv():
     # Reset file pointer for patient file
     patient_file.seek(0)
 
-    # Read patient records CSV file and create "Drug effects" table
-    patient_data = csv.DictReader(io.StringIO(patient_file.read().decode('utf-8')))
+    # Read patient records CSV file
+    patient_data = list(csv.DictReader(io.StringIO(patient_file.read().decode('utf-8'))))
+
+    # Number of patients
+    num_patients = len(patient_data)
+
+    # Create Patients_record table and insert patient data
+    patients_collection = db['Patients_record']
+    for patient_row in patient_data:
+        patients_collection.insert_one(patient_row)
+
+    # Assign drugs to patients in a circular manner
+    drug_index = 0
     for patient_row in patient_data:
         # Extract relevant data from patient records
         patient_id = patient_row['Patient ID']
-        
-        # Assign side effects of the first 50 drugs to this patient
-        for drug_row in drug_data:
-            side_effect = drug_row.get('sideEffect0', None)
-            # Create "Drug effects" table
-            drug_effect = {
-                'drugId': drug_row['id'],
-                'PatientId': patient_id,
-                'side_effect': side_effect
-            }
-            db["Drug_effects"].insert_one(drug_effect)
+
+        # Get the drug row for the current drug index
+        drug_row = drug_data[drug_index]
+
+        # Assign side effects of the drug to the patient
+        side_effect = drug_row.get(f'sideEffect{random.randint(0, 4)}', None)
+
+        # Create "Drug effects" table
+        drug_effect = {
+            'drugId': drug_row['id'],
+            'PatientId': patient_id,
+            'side_effect': side_effect
+        }
+        db["Drug_effects"].insert_one(drug_effect)
+
+        # Move to the next drug index in a circular manner
+        drug_index = (drug_index + 1) % len(drug_data)
+
 
     return jsonify({'success': 'Data uploaded successfully'})
 
