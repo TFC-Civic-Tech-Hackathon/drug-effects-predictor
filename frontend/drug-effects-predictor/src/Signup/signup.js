@@ -46,7 +46,7 @@ function Signup() {
 
   return (
     <div>
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
       <LinkContainer to="/">
             <Navbar.Brand>PharmaCutieCal</Navbar.Brand>
