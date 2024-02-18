@@ -34,7 +34,7 @@ function LandingPage() {
             <div style={{textAlign:"center",position:"relative",top:"80px"}}>
                <h1 style={{fontFamily: "'Meie Script', cursive"}}><i><b><u>PharmaCutieCal</u></b></i></h1>
                <div style={{margin:"50px"}}>
-               <p><b>Welcome to our health portal, where we empower you with immediate access to potential side effects of drugs, vaccines, and medicines. Utilizing an AI-driven model trained on extensive clinical trials data, our platform offers personalized insights into medication safety profiles. Simplify your journey towards informed health decisions with our comprehensive, user-friendly resource.</b></p> 
+               <p><b>Welcome to our health portal, where we provide personalized insights into potential side effects of drugs, vaccines, and medicines tailored to your unique medical history. Utilizing an AI-driven model trained on extensive clinical trials data, our platform ensures that the information is customized to you, enhancing the safety and efficacy of your healthcare decisions. Simplify your journey towards informed health decisions with our comprehensive, user-friendly resource.</b></p> 
                </div>
             </div>
 {/* 
