@@ -1,8 +1,11 @@
 import React from 'react'
 import { Container, Form, Button, Navbar, Nav } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
+import { Navigate, useNavigate } from 'react-router-dom';
 function NavbarCustom() {
+    const navigate = useNavigate();
     const handleLogout = () => {
+        navigate('/login')
         // Here you would handle the actual logout process, like clearing the user session
         alert('Logging out...');
       };
