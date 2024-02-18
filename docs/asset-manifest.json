@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/drug-effects-predictor/frontend/drug-effects-predictor/static/css/main.87d3940b.css",
+    "main.js": "/drug-effects-predictor/frontend/drug-effects-predictor/static/js/main.7a3b63d8.js",
+    "static/js/453.73eeb2bb.chunk.js": "/drug-effects-predictor/frontend/drug-effects-predictor/static/js/453.73eeb2bb.chunk.js",
+    "index.html": "/drug-effects-predictor/frontend/drug-effects-predictor/index.html",
+    "main.87d3940b.css.map": "/drug-effects-predictor/frontend/drug-effects-predictor/static/css/main.87d3940b.css.map",
+    "main.7a3b63d8.js.map": "/drug-effects-predictor/frontend/drug-effects-predictor/static/js/main.7a3b63d8.js.map",
+    "453.73eeb2bb.chunk.js.map": "/drug-effects-predictor/frontend/drug-effects-predictor/static/js/453.73eeb2bb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87d3940b.css",
+    "static/js/main.7a3b63d8.js"
+  ]
+}
