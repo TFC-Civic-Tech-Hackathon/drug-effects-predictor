@@ -3,13 +3,13 @@ import { Container, Row, Col, Form, Button, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 function login() {
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        // Handle the form submission logic here
-        alert('Login submitted');
-      };
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // Handle the form submission logic here
+    alert('Login submitted');
+  };
   return (
-    <Container className="d-flex justify-content-center align-items-center" style={{ minHeight: "100vh", minwidth:"70vw" }}>
+    <Container className="justify-content-center align-items-center custom-flex-width" style={{ minHeight: "100vh", width:"30vw", marginTop:"10%", marginBottom:"10%" }}>
       <Row>
         <Col md={12} className="mx-auto">
           <Card>
@@ -24,8 +24,11 @@ function login() {
                   <Form.Label>Password</Form.Label>
                   <Form.Control type="password" required />
                 </Form.Group>
-                <Button className="w-100" type="submit">Log In</Button>
-                <Link className="w-100" to="/signup">Signup</Link>
+                <Button className="w-100 mb-3" type="submit">Log In</Button>
+                <div className="text-center mb-3">
+                  <span>Don't have an account?  </span>
+                  <Link to="/signup">Signup</Link>
+                </div>
               </Form>
             </Card.Body>
           </Card>

@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import Login from './Login/login'
 import Signup from './Signup/signup'
+import Home from './Home/home'
+import Profile from './Profile/Profile'
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -15,7 +17,9 @@ root.render(
       <Routes>
         <Route path="/" element={<Login />} /> {/* Home Page */}
         <Route path="/login" element={<Login />} /> {/* Login Page */}
-        <Route path="/signup" element={<Signup />} /> {/* Login Page */}
+        <Route path="/signup" element={<Signup />} /> {/* Signup Page */}
+        <Route path="/home" element={<Home />} /> {/* Home Page */}
+        <Route path="/myprofile" element={<Profile />} /> {/* Profile Page */}
         {/* Add more routes as needed */}
       </Routes>
     </BrowserRouter>
