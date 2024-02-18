@@ -46,7 +46,7 @@ Patient Data Created using Faker
 Name | Email |
 --- |--- |
 Anshul Chaudhary  | chaudhary.ans@northeastern.edu |
-Roshan Dadlani  | dadlani.r.ans@northeastern.edu |
+Roshan Dadlani  | dadlani.r@northeastern.edu |
 Abhishek Nair | nair.abhi@northeastern.edu |
 Muskan Raisinghani  | raisinghani.m@northeastern.edu |
 Tejas Sridhar | sridhar.te@northeastern.edu |
