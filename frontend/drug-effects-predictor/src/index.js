@@ -4,11 +4,8 @@ import './index.css';
 import App from './App';
 import Login from './Login/login'
 import Signup from './Signup/signup'
-<<<<<<< HEAD
 import Home from './Home/home'
 import Profile from './Profile/Profile'
-=======
->>>>>>> feature/Abhishek
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
