@@ -7,20 +7,60 @@ function Profile() {
     const [selectedGenderOption, setSelectedGenderOption] = useState('');
     const [selectedBloodOption, setSelectedBloodOption] = useState('');
     const [selectedPregnantOption, setSelectedPregnantOption] = useState('');
+    const [selectedAgeOption, setSelectedAgeOption] = useState('');
+
+    const handleSubmit = async (event) => {
+      event.preventDefault();
+      console.log(event)
+    
+      // Gather form data
+      const formData = {
+        
+        // email: event.target.email.value,
+        fullname: event.target[1].value,
+        age: selectedAgeOption,
+        gender: selectedGenderOption,
+        height: event.target[4].value,
+        weight: event.target[5].value,
+        blood: selectedBloodOption,
+        pregnant: selectedPregnantOption,
+        pastComplication: event.target[9].value
+      };
+    
+      try {
+        const response = await fetch('http://localhost:5000/update-profile', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(formData)
+        });
+    
+        if (response.ok) {
+          // Handle successful response
+          alert('Profile Updated');
+        } else {
+          // Handle error response
+          throw new Error('Failed to update profile');
+        }
+      } catch (error) {
+        console.error('Error updating profile:', error);
+      }
+   };
+
+    const handleAgeRadioChange = (event) => {
+        setSelectedAgeOption(event.target.value);
+    };
+
 
     const handlePregnantRadioChange = (event) => {
-        setSelectedPregnantOption(event.target.value);
-    };
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        // Handle the form submission logic here
-        alert('Profile Updated');
-      };
+      setSelectedPregnantOption(event.target.value);
+  };
       const handleGenderSelectChange = (event) => {
         setSelectedGenderOption(event.target.value);
       };
       const handleBloodSelectChange = (event) => {
-        setSelectedGenderOption(event.target.value);
+        setSelectedBloodOption(event.target.value);
       };
   return (
     <div>
@@ -36,7 +76,7 @@ function Profile() {
                   <Form.Label>Email</Form.Label>
                   <Form.Control type="email" required disabled/>
                 </Form.Group>
-                <Form.Group id="age" className="mb-3">
+                <Form.Group id="fullname" className="mb-3">
                   <Form.Label>Full Name</Form.Label>
                   <Form.Control type="text" required />
                 </Form.Group>
@@ -66,10 +106,10 @@ function Profile() {
                   <Form.Label>Blood Group</Form.Label>
                   <Form.Control as="select" custom onChange={handleBloodSelectChange} value={selectedBloodOption}>
                     <option value="" disabled>Select an option</option>
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                   
-                    {/* Add more options as needed */}
+                    <option value="A">A</option>
+                    <option value="A-">A-</option>
+                    <option value="B">B</option>
+                    <option value="B-">B-</option>
                 </Form.Control>
                 </Form.Group>
                 <Form.Group id="pregnant" className="mb-3">

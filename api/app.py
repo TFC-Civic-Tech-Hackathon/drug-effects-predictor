@@ -13,7 +13,9 @@ app.secret_key = ''.join(random.choices(string.ascii_letters, k=7))
 # Connect to MongoDB
 client = MongoClient('mongodb://localhost:27017/')
 db = client['mydatabase']  # Change 'mydatabase' to your database name
-collection = db['Drug effects']  
+collection = db['Drug effects']
+
+collection2 = db['Patients_record']
 collection1 = db['drug_file']  
 collection2 = db['Patients_record']
 
