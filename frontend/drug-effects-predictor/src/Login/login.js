@@ -1,5 +1,6 @@
 import React from 'react'
-import { Container, Row, Col, Form, Button, Card } from 'react-bootstrap';
+import { Container, Row, Col, Form, Button, Card,Navbar, Nav } from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
 import { Link } from 'react-router-dom';
 
 function login() {
@@ -8,7 +9,25 @@ function login() {
         // Handle the form submission logic here
         alert('Login submitted');
       };
+      
   return (
+    <div>
+        <Navbar bg="light" expand="lg">
+      <Container>
+      <LinkContainer to="/">
+            <Navbar.Brand>PharmaCutieCal</Navbar.Brand>
+        </LinkContainer>
+        
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            
+            {/* Add more navigation links as needed */}
+          </Nav>
+      
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
     <Container className="justify-content-center align-items-center custom-flex-width" style={{ minHeight: "100vh", width:"30vw", marginTop:"10%", marginBottom:"10%" }}>
       <Row>
         <Col md={12} className="mx-auto">
@@ -25,13 +44,17 @@ function login() {
                   <Form.Control type="password" required />
                 </Form.Group>
                 <Button className="w-100" type="submit">Log In</Button>
-                <Link className="w-100" to="/signup">Signup</Link>
+                <div style={{textAlign:"center"}}>
+                <Link  className="w-100" to="/signup">Signup</Link>
+                {/* <Link style={{float:"right"}} className="w-100" to="/">About Us</Link> */}
+                </div>
               </Form>
             </Card.Body>
           </Card>
         </Col>
       </Row>
     </Container>
+    </div>
   )
 }
 

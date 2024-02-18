@@ -4,11 +4,12 @@ import './index.css';
 import App from './App';
 import Login from './Login/login'
 import Signup from './Signup/signup'
-<<<<<<< HEAD
+
 import Home from './Home/home'
 import Profile from './Profile/Profile'
-=======
->>>>>>> feature/Abhishek
+
+import DashboardPage from './DashboardPage/DashboardPage'
+import LandingPage from './LandingPage/LandingPage'
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -18,11 +19,14 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Login />} /> {/* Home Page */}
+        <Route path="/" element={<LandingPage />} /> {/* Home Page */}
         <Route path="/login" element={<Login />} /> {/* Login Page */}
         <Route path="/signup" element={<Signup />} /> {/* Signup Page */}
         <Route path="/home" element={<Home />} /> {/* Home Page */}
         <Route path="/myprofile" element={<Profile />} /> {/* Profile Page */}
+        <Route path="/dashboard" element={<DashboardPage />} />
+        {/* <Route path="/landingpage" element={<LandingPage />} /> */}
+
         {/* Add more routes as needed */}
       </Routes>
     </BrowserRouter>

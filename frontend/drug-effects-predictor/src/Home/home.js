@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, Row, Col, Form, Button, Card,Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { LinkContainer } from 'react-router-bootstrap';
+import NavbarCustom from '../Navbar/NavbarCustom'
 function home() {
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -14,27 +15,7 @@ function home() {
       };
   return (
     <div>
-    <Navbar bg="light" expand="lg">
-      <Container>
-      <LinkContainer to="/home">
-            <Navbar.Brand>PharmaCutieCal</Navbar.Brand>
-        </LinkContainer>
-        
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <LinkContainer to="/home">
-                <Nav.Link >Home</Nav.Link>
-            </LinkContainer>
-            <LinkContainer to="/myprofile">
-                <Nav.Link >Profile</Nav.Link>
-            </LinkContainer>
-            {/* Add more navigation links as needed */}
-          </Nav>
-          <Button variant="outline-danger" onClick={handleLogout}>Logout</Button>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <NavbarCustom />
     <Container className="justify-content-center align-items-center custom-flex-width" style={{ minHeight: "100vh", width:"70vw", marginTop:"10%", marginBottom:"10%" }}>
       <Form onSubmit={handleSubmit}>
       <Row>
