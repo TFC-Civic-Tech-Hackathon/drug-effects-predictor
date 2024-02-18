@@ -1,14 +1,35 @@
 import React from 'react'
-import { Container, Row, Col, Form, Button, Card } from 'react-bootstrap';
+import { Container, Row, Col, Form, Button, Card,Navbar, Nav } from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
 import { Link } from 'react-router-dom';
 
 function login() {
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    // Handle the form submission logic here
-    alert('Login submitted');
-  };
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        // Handle the form submission logic here
+        alert('Login submitted');
+      };
+      
+
   return (
+    <div>
+        <Navbar bg="light" expand="lg">
+      <Container>
+      <LinkContainer to="/">
+            <Navbar.Brand>PharmaCutieCal</Navbar.Brand>
+        </LinkContainer>
+        
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            
+            {/* Add more navigation links as needed */}
+          </Nav>
+      
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
     <Container className="justify-content-center align-items-center custom-flex-width" style={{ minHeight: "100vh", width:"30vw", marginTop:"10%", marginBottom:"10%" }}>
       <Row>
         <Col md={12} className="mx-auto">
@@ -24,10 +45,13 @@ function login() {
                   <Form.Label>Password</Form.Label>
                   <Form.Control type="password" required />
                 </Form.Group>
+
+
                 <Button className="w-100 mb-3" type="submit">Log In</Button>
                 <div className="text-center mb-3">
                   <span>Don't have an account?  </span>
                   <Link to="/signup">Signup</Link>
+
                 </div>
               </Form>
             </Card.Body>
@@ -35,6 +59,7 @@ function login() {
         </Col>
       </Row>
     </Container>
+    </div>
   )
 }
 
