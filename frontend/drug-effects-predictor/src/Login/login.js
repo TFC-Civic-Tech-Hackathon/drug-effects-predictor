@@ -4,12 +4,14 @@ import { LinkContainer } from 'react-router-bootstrap';
 import { Link } from 'react-router-dom';
 
 function login() {
+
     const handleSubmit = (event) => {
         event.preventDefault();
         // Handle the form submission logic here
         alert('Login submitted');
       };
       
+
   return (
     <div>
         <Navbar bg="light" expand="lg">
@@ -43,10 +45,13 @@ function login() {
                   <Form.Label>Password</Form.Label>
                   <Form.Control type="password" required />
                 </Form.Group>
-                <Button className="w-100" type="submit">Log In</Button>
-                <div style={{textAlign:"center"}}>
-                <Link  className="w-100" to="/signup">Signup</Link>
-                {/* <Link style={{float:"right"}} className="w-100" to="/">About Us</Link> */}
+
+
+                <Button className="w-100 mb-3" type="submit">Log In</Button>
+                <div className="text-center mb-3">
+                  <span>Don't have an account?  </span>
+                  <Link to="/signup">Signup</Link>
+
                 </div>
               </Form>
             </Card.Body>

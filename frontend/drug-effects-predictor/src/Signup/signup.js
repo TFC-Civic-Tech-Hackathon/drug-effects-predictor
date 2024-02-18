@@ -2,13 +2,15 @@ import React, { useState } from 'react';
 import { Container, Row, Col, Form, Button, Card,Navbar, Nav } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+
 
 function Signup() {
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
-
+  const navigate = useNavigate();
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -17,7 +19,6 @@ function Signup() {
       return;
     }
     try {
-      console.log("before")
       const response = await fetch('http://localhost:5000/signup', {
         method: 'POST',
         headers: {
@@ -27,7 +28,7 @@ function Signup() {
       });
 
       if (!response.ok) {
-     
+
         throw new Error(`HTTP error! status: ${response.status}`);
       }
 
@@ -38,8 +39,10 @@ function Signup() {
 
         alert(data.error);
       } else {
-   
+
         alert(data.message);
+        navigate('/login');
+
       }
     } catch (error) {
       console.error('Error:', error);
