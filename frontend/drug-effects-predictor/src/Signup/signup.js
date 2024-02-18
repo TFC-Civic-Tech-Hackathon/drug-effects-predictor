@@ -9,7 +9,7 @@ function signup() {
         alert('Signup submitted');
       };
   return (
-    <Container className="d-flex justify-content-center align-items-center" style={{ minHeight: "100vh", minwidth:"70vw" }}>
+    <Container className="justify-content-center align-items-center custom-flex-width" style={{ minHeight: "100vh", width:"30vw", marginTop:"10%", marginBottom:"10%" }}>
       <Row>
         <Col md={12} className="mx-auto">
           <Card>
