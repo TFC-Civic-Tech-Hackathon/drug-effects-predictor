@@ -42,6 +42,7 @@ function Login() {
       });
       if (response.ok) {
         const data = await response.json();
+        localStorage.setItem("email",email)
         setsessionVar(true);
         console.log(response)
         navigate('/home');
@@ -53,7 +54,7 @@ function Login() {
     }
   };
 
-if(sessionVar === false){
+// if(localStorage.getItem("email") === null){
   return (
     <div>
         <Navbar bg="dark" variant="dark" expand="lg">
@@ -104,9 +105,9 @@ if(sessionVar === false){
       </Container>
     </div>
   )
-}else{
-  navigate('/home');
-}
+// }else{
+//   navigate('/home');
+// }
 }
 
 export default Login;
