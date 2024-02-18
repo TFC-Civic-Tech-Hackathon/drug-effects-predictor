@@ -1,7 +1,5 @@
 ## Live application Links
-
-[![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](PUT-YOUR-URL-HERE)
-
+[PPT](https://1drv.ms/p/s!AolS3ICLeSOinkf5nMwpK2JQm5t8?e=5lcXTC), website - https://tfc-civic-tech-hackathon.github.io/Pharmacutiecal/
 ## Problem Statement
 In the realm of healthcare management, individuals often encounter challenges in understanding the potential side effects of prescribed medications, leading to uncertainties about their treatment decisions. Despite advancements in machine learning (ML) techniques, existing models may exhibit limitations in accurately predicting drug side effects, thereby impacting user confidence in the information provided. Additionally, while web-based platforms offer convenience in medical record maintenance, ensuring seamless integration with ML-generated insights remains a critical yet unaddressed aspect.
 
