@@ -71,6 +71,7 @@ def upload_csv():
         # Move to the next drug index in a circular manner
         drug_index = (drug_index + 1) % len(drug_data)
 
+
     return jsonify({'success': 'Data uploaded successfully'})
 
 
