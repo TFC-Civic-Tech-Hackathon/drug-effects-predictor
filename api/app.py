@@ -56,6 +56,14 @@ def upload_csv():
     # Number of patients
     num_patients = len(patient_data)
 
+    # Check if collections exist and drop them if they do
+    if 'Patients_record' in db.list_collection_names():
+        db['Patients_record'].drop()
+    if 'Drug_effects' in db.list_collection_names():
+        db['Drug_effects'].drop()
+    if 'drug_file' in db.list_collection_names():
+        db['drug_file'].drop()
+
     # Create Patients_record table and insert patient data
     patients_collection = db['Patients_record']
     for patient_row in patient_data:
