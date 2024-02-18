@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
+import NavbarCustom from '../Navbar/NavbarCustom'
 
 function Home() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -47,6 +48,8 @@ function Home() {
   };
 
   return (
+    <div>
+    <NavbarCustom />
     <Container className="justify-content-center align-items-center custom-flex-width" style={{ minHeight: "100vh", width: "70vw", marginTop: "10%", marginBottom: "10%" }}>
       <Form onSubmit={handleSubmit}>
         <Row>
@@ -81,6 +84,7 @@ function Home() {
         </Row>
       </Form>
     </Container>
+    </div>
   );
 }
 
