@@ -6,13 +6,17 @@ function Home() {
   const [searchTerm, setSearchTerm] = useState('');
   const [searchResults, setSearchResults] = useState([]);
   const [selectedResult, setSelectedResult] = useState('');
-
+  const [returnValue, setReturnValue] = useState('');
   const handleSearchChange = (value) => {
     setSearchTerm(value);
   };
 
   const handleSelectChange = (value) => {
-    setSelectedResult(value);// Call handleSubmit1 when the selected result changes
+    console.log(value)
+    if(value !== undefined){
+      setSelectedResult(value);
+    }
+    // Call handleSubmit1 when the selected result changes
   };
 
   const handleSubmit = async (event) => {
@@ -22,11 +26,19 @@ function Home() {
       const response = await fetch(`http://localhost:5000/search?term=${searchTerm}&selectedResult=${selectedResult}`);
       if (response.ok) {
         const data = await response.json();
-        setSearchResults(data.results);
+        // setSearchResults(data);
+        setSearchResults([])
+        if(data.results !== undefined){
+        setSearchResults(data.results)
+        }
+        // setReturnValue(data.results);
+        console.log(returnValue)
       } else {
+        alert("Invalid Creds");
         console.error('Error fetching search results:', response.statusText);
       }
     } catch (error) {
+      alert("Invalid Creds");
       console.error('Error fetching search results:', error);
     }
   };
@@ -35,10 +47,16 @@ function Home() {
     event.preventDefault();
     try {
       console.log(selectedResult);
-      const response = await fetch(`http://localhost:5000/model?selectedResult=${selectedResult}`);
+      const response = await fetch(`http://localhost:5000/model?selectedResult=${selectedResult}&email=${localStorage.getItem("email")}`);
       if (response.ok) {
         const data = await response.json();
-        setSearchResults(data.results);
+        setSearchResults([])
+        if(data.results !== undefined){
+          setSearchResults(data.results);
+        }
+        
+        setReturnValue(data.results)
+      alert("You may have "+data.result)
       } else {
         console.error('Error fetching search results:', response.statusText);
       }
